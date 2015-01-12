@@ -1,0 +1,4575 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<title>코참비즈 | 성공 비즈니스의 시작!</title>
+<!--title>페이지설명 | 성공 비즈니스의 시작! 코참비즈.넷</title-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="shortcut icon" type="image/x-icon"
+	href="/img/main/favicon.ico" />
+<link href="/css/reset.css" type="text/css" rel="stylesheet" />
+<link href="/css/common.css" type="text/css" rel="stylesheet" />
+<link href="/css/layout.css" type="text/css" rel="stylesheet" />
+<link href="/css/ui.css" type="text/css" rel="stylesheet" />
+<script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+<!--2014.04.24 분야별 메뉴수정 추가 js-->
+<script src="/js/gnb.min.js" type="text/javascript"></script>
+<script src="/js/gnb_ui.js" type="text/javascript"></script>
+<script src="/js/footer.min.js" type="text/javascript"></script>
+<script src="/js/jquery.autofix_anything.js" type="text/javascript"></script>
+<script src="/js/ui.js" type="text/javascript"></script>
+<script src="/js/common.js" type="text/javascript"></script>
+<script>
+	// 자동으로 다음칸으로 넘어가기 로직
+	var isNN = (navigator.appName.indexOf("Netscape")!=-1);
+	
+	function autoTab(input,len, e) {
+		var keyCode = (isNN) ? e.which : e.keyCode; 
+		var filter = (isNN) ? [0,8,9] : [0,8,9,16,17,18,37,38,39,40,46];
+		
+		if (input.value.length >= len && !containsElement(filter,keyCode)) {
+			input.value = input.value.slice(0, len);
+			input.form[(getIndex(input)+1) % input.form.length].focus();
+		}
+		
+		function containsElement(arr, ele) {
+			var found = false, index = 0;
+			while(!found && index < arr.length)
+			
+			if(arr[index] == ele)
+				found = true;
+				else
+				index++;
+				return found;
+			}
+		function getIndex(input) {
+			var index = -1, i = 0, found = false;
+			while (i < input.form.length && index == -1)
+			
+			if (input.form[i] == input)index = i;
+			else i++;
+			return index;
+		}
+			
+			return true;
+	}
+	//숫자 check
+	function num_check() { 
+	// ie에서만 작동 
+		var keyCode = event.keyCode ;
+		if( event.keyCode < 45 || event.keyCode > 57){ 
+			if( event.keyCode > 95 && event.keyCode < 106) return; 
+			if(!(event.keyCode == 9 || event.keyCode == 8 || event.keyCode == 37 || event.keyCode == 38 ||
+					event.keyCode == 39 || event.keyCode == 40 || event.keyCode == 144 || event.keyCode == 36 ||
+					event.keyCode == 35 || event.keyCode == 13)) {
+				alert("숫자만 사용할 수 있습니다.") ;
+				event.returnValue=false ;
+			}
+		} 
+	}
+	function autoTab(input,len, e) {
+		var keyCode = (isNN) ? e.which : e.keyCode; 
+		var filter = (isNN) ? [0,8,9] : [0,8,9,16,17,18,37,38,39,40,46];
+		
+		if (input.value.length >= len && !containsElement(filter,keyCode)) {
+			input.value = input.value.slice(0, len);
+			input.form[(getIndex(input)+1) % input.form.length].focus();
+		}
+		
+		function containsElement(arr, ele) {
+			var found = false, index = 0;
+			while(!found && index < arr.length)
+			
+			if(arr[index] == ele)
+				found = true;
+				else
+				index++;
+				return found;
+			}
+		function getIndex(input) {
+			var index = -1, i = 0, found = false;
+			while (i < input.form.length && index == -1)
+			
+			if (input.form[i] == input)index = i;
+			else i++;
+			return index;
+		}
+			
+			return true;
+	}
+</script>
+</head>
+<body>
+	<!-- 메뉴건너뛰기 -->
+	<div id="skipnavigation">
+		<a href="#header">메뉴 바로가기</a> <a href="#content">컨텐츠 바로가기</a> <a
+			href="#footer">하단 바로가기</a>
+	</div>
+	<!-- //메뉴건너뛰기 -->
+	<div id="wrap">
+		<!-- 상단 영역-->
+		<div id="header">
+			<!-- 여기부터 header_top.html include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<script language="javascript" src="/SRCH/JS/search.js"></script>
+			<script language="javascript" src="/SRCH/JS/pagenav.js"></script>
+			<script>
+<!---
+function addBsnNum() {
+	document.detailSearchForm.bsnregno.value = document.detailSearchForm.bsnregno1.value + document.detailSearchForm.bsnregno2.value + document.detailSearchForm.bsnregno3.value;
+}
+//--->
+</script>
+
+
+
+
+
+
+			<form name="historyForm" id="historyForm" method="get">
+				<input type="hidden" name="temp_t_indcd" value="" /> <input
+					type="hidden" name="temp_hd_indcd" value="" /> <input
+					type="hidden" name="temp_hd_indcd_section" value="" /> <input
+					type="hidden" name="category" value="TOTAL" /> <input type="hidden"
+					name="kwd" value="" /> <input type="hidden" name="pageNum"
+					value="1" /> <input type="hidden" name="pageSize" value="10" /> <input
+					type="hidden" name="sort" value="a" /> <input type="hidden"
+					name="detailSearch" value="false" /> <input type="hidden"
+					name="page_cd" value="010303" />
+
+			</form>
+
+
+
+
+
+
+
+
+
+			<div class="lnb_wrap">
+				<!-- lnb -->
+				<div class="lnb">
+					<h1>
+						<a href="http://www.korchambiz.net/main.jsp"><img
+							src="/img/main/t_logo.gif" alt="korchambiz 로고" /></a>
+					</h1>
+					<ul class="link_menu">
+						<li><a href="http://www.korcham.net" target="_blank"><img
+								src="/img/ico/link_ico.gif" alt="코참넷 바로가기" /></a></li>
+					</ul>
+					<h2 class="blind">로그인 및 서비스 메뉴</h2>
+					<div class="lnb_menu_box">
+						<div class="lnb_menu_wrap">
+							<ul class="lnb_menu">
+
+								<li><a href="http://www.korchambiz.net/LOGIN/login_02.jsp">로그인</a></li>
+								<li><a
+									href="http://www.korchambiz.net/join/join_membermain.jsp">회원가입</a></li>
+
+								<li><a href="http://www.korchambiz.net/KCBIZ/kcbiz_qna.jsp">문의하기</a></li>
+								<li><a
+									href="http://www.korchambiz.net/KCBIZ/kcbiz_faqlist.jsp?page_cd=050301">GUIDE</a></li>
+								<li><a href="http://www.korchambiz.net/ENG/main.jsp"
+									target="_blank">ENGLISH</a></li>
+								<!--- li><a href="http://www.korchambiz.net/ETCPG/etc_mobile.jsp">모바일</a></li --->
+							</ul>
+						</div>
+						<div class="lnb_menu_area">
+							<ul class="top_biz">
+								<li class="mybiz"><a
+									href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">마이비즈</a>
+
+								</li>
+								<li class="bizCenter"><a
+									href="javascript:goTapMove('070101')">비즈센터</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- //lnb -->
+			</div>
+			<!-- sub 메뉴 -->
+			<h2 class="blind">서브 메뉴 타이틀</h2>
+			<div class="sub_menu">
+				<ul>
+					<li class="line_ov"><a href="javascript:goTapMove('010101');">기업정보</a></li>
+					<!-- class="ov" 서브 메뉴 선택시 활성화 -->
+					<li><a href="javascript:goTapMove('020101');">상품/거래</a></li>
+					<li><a href="javascript:goTapMove('030101');">채용/인재</a></li>
+					<li><a href="javascript:goTapMove('040101');">뉴스/입찰</a></li>
+					<li class="wid106 "><a href="javascript:goTapMove('050101');">코참비즈
+							소개</a></li>
+				</ul>
+				<div class="com_btn_top">
+					<span class="btn_sitemap"><button type="button"
+							id="layer_open1">상세검색 보기</button></span>
+					<!-- 상세팝업 -->
+					<div class="layer layer1">
+						<div class="bg"></div>
+						<div class="layer_area" id="layer1">
+							<!-- 팝업 상단 -->
+							<div class="modal_header">
+								<form name="searchForm" id="AKCFrm" method="get"
+									action="http://www.korchambiz.net/SRCH/search_total.jsp"
+									onsubmit="return seachKwd(this);">
+									<div class="select-design">
+										<select name="select_form" title="선택해 주세요">
+											<option value="" selected="selected">통합검색</option>
+											<option value="">기업명</option>
+										</select>
+									</div>
+									<div class="bor_input">
+										<input type="text" name="kwd" id="AKCKwd" value="" class="it "
+											title="내용을 입력해 주세요"
+											style="background: #fff url('/img/main/pop_sch_box.gif') no-repeat 50% 50%;"
+											onkeydown="clrImg(this)" onmousedown="clrImg(this)" />
+									</div>
+									<input type="hidden" name="category" value="TOTAL" /> <input
+										type="hidden" name="pageSize" value="10" /> <input
+										type="hidden" name="sort" value="a" /> <input type="submit"
+										value="검색" class="searchBtn" />
+								</form>
+								<span class="button medium"><a href="#"
+									class="layer_close"><img
+										src="/img/main/btn_modal_close.png" alt="팝업 닫기" /></a></span>
+							</div>
+							<!-- //팝업 상단 -->
+							<!-- 팝업 내용 -->
+							<div class="pop_subBox">
+								<div class="modal_tit">
+									<h3 class="bu_tit">기업정보 상세검색</h3>
+									<div class="">
+										<form name="pre1000" id="pre1000" method="post">
+
+											<a href="#" onclick="javascript:alert('프리미엄 전용서비스 입니다.');"
+												class="btn_down"><span>1000대 기업 다운로드</span></a> <select
+												name="year" id="year" title="선택해주세요">
+												<option value="2013" selected="selected">2013년</option>
+												<option value="2012">2012년</option>
+												<option value="2011">2011년</option>
+												<option value="2010">2010년</option>
+												<option value="2009">2009년</option>
+												<option value="2008">2008년</option>
+												<option value="2007">2007년</option>
+												<option value="2006">2006년</option>
+											</select> <a href="#" onClick="javascript:detailSeachKwd(this);"
+												class="btn_sch_big"><span>검색</span></a> <a href="#"
+												onClick="javascript:document.detailSearchForm.reset();"
+												class="btn_cancel_mid layer_cancel"><span>취소</span></a>
+										</form>
+									</div>
+								</div>
+								<!-- 리스트 내용 -->
+								<form name="detailSearchForm" method="get">
+									<input type="hidden" name="hd_indcd" value=""> <input
+										type="hidden" name="hd_indcd_section" value=""> <input
+											type="hidden" name="ADDR1" value=""> <input
+												type="hidden" name="ADDR2" value="">
+													<div class="affiliates_tb">
+														<table cellpadding="0" cellspacing="0" class=""
+															summary="기업명, 사업자등록번호, 대표자명, 주요취급품목, 업종, 지역, 상시종업원수, 설립연도, 매출애그 분야선택, 수출입여부, 상장여부 내용 ">
+															<caption>기업정보상세 검색 리스트</caption>
+															<colgroup>
+																<col width="155" />
+																<col width="304" />
+																<col width="155" />
+																<col width="304" />
+															</colgroup>
+															<tbody>
+																<tr>
+																	<th scope="row">기업명</th>
+																	<td colspan="3"><input type="text" class="it "
+																		title="" value="" name="companynm"
+																		style="width: 212px;" /> <input type="checkbox"
+																		name="englishFlag" id="a1" /> <label for="a1">영문</label>
+																		<span class="font_col">영문기업명을 검색하려면 체크하세요.</span></td>
+																</tr>
+																<tr>
+																	<th scope="row">사업자등록번호</th>
+																	<td><input type="text" class="it "
+																		title="사업자등록번호 앞 세 자리를 입력하세요." value=""
+																		name="bsnregno1" style="width: 60px;" maxlength="3"
+																		onblur="javascript:intCheck(bsnregno1);"
+																		onkeydown="num_check()"
+																		onKeyUp="return autoTab(this, 3, event);" /> - <input
+																		type="text" class="it "
+																		title="사업자등록번호 중간 두 자리를 입력하세요." value=""
+																		name="bsnregno2" style="width: 60px;" maxlength="2"
+																		onblur="javascript:intCheck(bsnregno2);"
+																		onkeydown="num_check()"
+																		onKeyUp="return autoTab(this, 2, event);" /> - <input
+																		type="text" class="it "
+																		title="사업자등록번호 뒤 다섯 자리를 입력하세요." value=""
+																		name="bsnregno3" style="width: 60px;" maxlength="5"
+																		onblur="javascript:intCheck(bsnregno3);addBsnNum();"
+																		onkeydown="num_check()"
+																		onKeyUp="return autoTab(this, 5, event);" /> <input
+																		type="hidden" name="bsnregno" value="" /></td>
+																	<th scope="row">대표자명</th>
+																	<td><input type="text" class="it " title=""
+																		value="" name="repdirhannm" /></td>
+																</tr>
+																<tr>
+																	<th scope="row">주요취급품목</th>
+																	<td colspan="3"><input type="text" class="it "
+																		title="" value="" name="prodhannm"
+																		style="width: 600px;" /></td>
+																</tr>
+																<tr>
+																	<th scope="row">업종</th>
+																	<td colspan="3"><input type="text" class="it "
+																		title="" value="" name="t_indcd" style="width: 495px;"
+																		readonly onclick="javascript:business_select();" /> <a
+																		href="javascript:business_select();"
+																		class="btn_ind_sel"><span>업종선택</span></a> <a
+																		href="javascript:removeData('indcd')" class="btn_year"><span>취소</span></a>
+																	</td>
+																</tr>
+																<tr>
+																	<th scope="row">지역</th>
+																	<td colspan="3"><input type="text" class="it "
+																		title="" value="" name="t_area" style="width: 495px;"
+																		readonly onclick="javascript:pop_areaselect();" /> <a
+																		href="javascript:pop_areaselect();"
+																		class="btn_ind_sel"><span>지역선택</span></a> <a
+																		href="javascript:removeData('area')" class="btn_year"><span>취소</span></a>
+																	</td>
+																</tr>
+																<tr>
+																	<th scope="row">상시종업원수</th>
+																	<td><input type="text" class="it " title=""
+																		value="" name="sEmpcnt" style="width: 80px;"
+																		onblur="javascript:intCheck(sEmpcnt);" /> - <input
+																		type="text" class="it " title="" value=""
+																		name="eEmpcnt" style="width: 80px;"
+																		onblur="javascript:intCheck(eEmpcnt);" /> 명</td>
+																	<th scope="row">설립연도</th>
+																	<td><input type="text" class="it " title=""
+																		value="" name="sEstymd" style="width: 80px;"
+																		onblur="javascript:intCheck(sEstymd);" /> - <input
+																		type="text" class="it " title="" value=""
+																		name="eEstymd" style="width: 80px;"
+																		onblur="javascript:intCheck(eEstymd);" /> 년</td>
+																</tr>
+																<tr>
+																	<th scope="row">매출액</th>
+																	<td colspan="3"><input type="text" class="it "
+																		title="" value="" name="sSaleamt"
+																		onblur="javascript:intCheck(sSaleamt);" /> - <input
+																		type="text" class="it " title="" value=""
+																		name="eSaleamt"
+																		onblur="javascript:intCheck(eSaleamt);" /> 백만원</td>
+																</tr>
+																<tr>
+																	<th scope="row">분야선택</th>
+																	<td colspan="3">
+																		<ul class="">
+																			<li><input type="checkbox" name="extautyn"
+																				id="a2" /> <label for="a2">외부감사기업</label></li>
+																			<li><input type="checkbox" name="ventureyn"
+																				id="a3" /> <label for="a3">벤처기업</label></li>
+																			<li><input type="checkbox" name="military"
+																				id="a4" /> <label for="a4">병역특례 지정기업</label></li>
+																			<li><input type="checkbox" name="grporderyn0"
+																				id="a5"
+																				onclick="javascript:checkGroup('grporderyn');" /> <label
+																				for="a5">30대 그룹</label> <select name="grporderyn"
+																				title="선택해주세요" disabled="true">
+																					<option selected value="1">그룹사선택</option>
+
+																					<option value="삼성">삼성</option>
+
+																					<option value="한국전력공사">한국전력공사</option>
+
+																					<option value="현대자동차">현대자동차</option>
+
+																					<option value="한국토지주택공사">한국토지주택공사</option>
+
+																					<option value="에스케이">에스케이</option>
+
+																					<option value="엘지">엘지</option>
+
+																					<option value="롯데">롯데</option>
+
+																					<option value="포스코">포스코</option>
+
+																					<option value="현대중공업">현대중공업</option>
+
+																					<option value="지에스">지에스</option>
+
+																					<option value="한국도로공사">한국도로공사</option>
+
+																					<option value="한국가스공사">한국가스공사</option>
+
+																					<option value="농협">농협</option>
+
+																					<option value="한진">한진</option>
+
+																					<option value="한화">한화</option>
+
+																					<option value="케이티">케이티</option>
+
+																					<option value="두산">두산</option>
+
+																					<option value="한국수자원공사">한국수자원공사</option>
+
+																					<option value="신세계">신세계</option>
+
+																					<option value="씨제이">씨제이</option>
+
+																					<option value="한국석유공사">한국석유공사</option>
+
+																					<option value="한국철도공사">한국철도공사</option>
+
+																					<option value="엘에스">엘에스</option>
+
+																					<option value="대우조선해양">대우조선해양</option>
+
+																					<option value="금호아시아나">금호아시아나</option>
+
+																					<option value="동부">동부</option>
+
+																					<option value="대림">대림</option>
+
+																					<option value="부영">부영</option>
+
+																					<option value="현대">현대</option>
+
+																					<option value="오씨아이">오씨아이</option>
+
+																			</select></li>
+																			<li><input type="checkbox" name="osinvestyn0"
+																				value="1" id="a6"
+																				onclick="javascript:checkGroup('osinvestyn');" /> <label
+																				for="a6">외국인 투자기업</label> <select name="osinvestyn"
+																				title="선택해주세요" disabled="true">
+																					<option selected value="1">국가선택</option>
+
+																					<option value="GH">가나</option>
+
+
+																					<option value="GA">가봉</option>
+
+
+																					<option value="GM">감비아</option>
+
+
+																					<option value="GT">과테말라</option>
+
+
+																					<option value="GU">괌</option>
+
+
+																					<option value="GP">구아델루프</option>
+
+
+																					<option value="GY">구야나</option>
+
+
+																					<option value="GN">구이니</option>
+
+
+																					<option value="GD">그레나다</option>
+
+
+																					<option value="GR">그리스</option>
+
+
+																					<option value="GL">그린랜드</option>
+
+
+																					<option value="GW">기니비사우</option>
+
+
+																					<option value="NA">나미비아</option>
+
+
+																					<option value="NR">나우루</option>
+
+
+																					<option value="NG">나이지리아</option>
+
+
+																					<option value="AQ">남극</option>
+
+
+																					<option value="ZA">남아프리카 공화국</option>
+
+
+																					<option value="GS">남조지아&남샌드위치아일랜드</option>
+
+
+																					<option value="NL">네덜란드</option>
+
+
+																					<option value="AN">네덜란드안틸레스</option>
+
+
+																					<option value="NP">네팔</option>
+
+
+																					<option value="NO">노르웨이</option>
+
+
+																					<option value="NF">노포크아일랜드</option>
+
+
+																					<option value="NZ">뉴질랜드</option>
+
+
+																					<option value="NC">뉴칼레도니아</option>
+
+
+																					<option value="NU">니우에</option>
+
+
+																					<option value="NE">니제르</option>
+
+
+																					<option value="NI">니카라과</option>
+
+
+																					<option value="TW">대만</option>
+
+
+																					<option value="KR">대한민국</option>
+
+
+																					<option value="DK">덴마크</option>
+
+
+																					<option value="DM">도미니카</option>
+
+
+																					<option value="DO">도미니카공화국</option>
+
+
+																					<option value="DE">독일</option>
+
+
+																					<option value="TP">동티모르</option>
+
+
+																					<option value="DJ">드지부티</option>
+
+
+																					<option value="LA">라오스 인민민주공화국</option>
+
+
+																					<option value="LR">라이베리아</option>
+
+
+																					<option value="LV">라트비아</option>
+
+
+																					<option value="RU">러시아</option>
+
+
+																					<option value="LB">레바논</option>
+
+
+																					<option value="LS">레소토</option>
+
+
+																					<option value="RO">루마니아</option>
+
+
+																					<option value="LU">룩셈부르크</option>
+
+
+																					<option value="RW">르완다</option>
+
+
+																					<option value="LY">리비아 아랍 자마힐리아</option>
+
+
+																					<option value="RE">리유니온</option>
+
+
+																					<option value="LT">리투아니아</option>
+
+
+																					<option value="LI">리히텐스타인</option>
+
+
+																					<option value="MG">마다가스카르</option>
+
+
+																					<option value="MQ">마르티니크</option>
+
+
+																					<option value="MH">마샬아일랜드</option>
+
+
+																					<option value="YT">마요트</option>
+
+
+																					<option value="UM">마이너아웃라잉아일랜드(미국령)</option>
+
+
+																					<option value="MO">마카오</option>
+
+
+																					<option value="MK">마케도니아</option>
+
+
+																					<option value="MW">말라위</option>
+
+
+																					<option value="MY">말레이시아</option>
+
+
+																					<option value="ML">말리</option>
+
+
+																					<option value="MX">멕시코</option>
+
+
+																					<option value="MC">모나코</option>
+
+
+																					<option value="MA">모로코</option>
+
+
+																					<option value="MU">모리셔스</option>
+
+
+																					<option value="MR">모리타니아</option>
+
+
+																					<option value="MZ">모잠비크</option>
+
+
+																					<option value="MD">몰도바</option>
+
+
+																					<option value="MV">몰디브</option>
+
+
+																					<option value="MT">몰타</option>
+
+
+																					<option value="MN">몽골</option>
+
+
+																					<option value="MS">몽세라트</option>
+
+
+																					<option value="US">미국</option>
+
+
+																					<option value="MM">미얀마</option>
+
+
+																					<option value="AS">미연방 사모아</option>
+
+
+																					<option value="FM">미크로네시아 연방</option>
+
+
+																					<option value="VU">바누아투</option>
+
+
+																					<option value="BH">바레인</option>
+
+
+																					<option value="BB">바바도스</option>
+
+
+																					<option value="VA">바티칸시티</option>
+
+
+																					<option value="BS">바하마</option>
+
+
+																					<option value="BD">방글라데시</option>
+
+
+																					<option value="BM">버뮤다</option>
+
+
+																					<option value="VI">버진아일랜드(미국령)</option>
+
+
+																					<option value="VG">버진아일랜드(영국령)</option>
+
+
+																					<option value="VE">베네주엘라</option>
+
+
+																					<option value="BJ">베닌</option>
+
+
+																					<option value="VN">베트남</option>
+
+
+																					<option value="BE">벨기에</option>
+
+
+																					<option value="BY">벨라루스</option>
+
+
+																					<option value="BZ">벨리즈</option>
+
+
+																					<option value="BA">보스니아 헤르제고비나 공화국</option>
+
+
+																					<option value="BW">보츠와나 공화국</option>
+
+
+																					<option value="BO">볼리비아</option>
+
+
+																					<option value="BF">부르키나 파소</option>
+
+
+																					<option value="BV">부벳아일랜드</option>
+
+
+																					<option value="BT">부탄</option>
+
+
+																					<option value="MP">북마리아나아일랜드</option>
+
+
+																					<option value="KP">북한</option>
+
+
+																					<option value="BG">불가리아</option>
+
+
+																					<option value="BR">브라질</option>
+
+
+																					<option value="BN">브루나이</option>
+
+
+																					<option value="BI">브룬디</option>
+
+
+																					<option value="WS">사모아</option>
+
+
+																					<option value="SA">사우디아라비아</option>
+
+
+																					<option value="CY">사이프러스</option>
+
+
+																					<option value="SM">산마리노</option>
+
+
+																					<option value="ST">상투메 프린시페</option>
+
+
+																					<option value="EH">서 사하라</option>
+
+
+																					<option value="SN">세네갈</option>
+
+
+																					<option value="SC">세이셸</option>
+
+
+																					<option value="LC">세인트루시아</option>
+
+
+																					<option value="VC">세인트빈센트</option>
+
+
+																					<option value="KN">세인트키트</option>
+
+
+																					<option value="PM">세인트피에르</option>
+
+
+																					<option value="SH">세인트헬레나</option>
+
+
+																					<option value="SO">소말리아</option>
+
+
+																					<option value="SB">솔로몬아일랜드</option>
+
+
+																					<option value="SD">수단</option>
+
+
+																					<option value="SR">수리남</option>
+
+
+																					<option value="LK">스리랑카</option>
+
+
+																					<option value="SJ">스발바르드&잔메옌</option>
+
+
+																					<option value="SZ">스와질란드</option>
+
+
+																					<option value="SE">스웨덴</option>
+
+
+																					<option value="CH">스위스</option>
+
+
+																					<option value="ES">스페인</option>
+
+
+																					<option value="SK">슬로바키아</option>
+
+
+																					<option value="SI">슬로베니아</option>
+
+
+																					<option value="SY">시리아</option>
+
+
+																					<option value="SL">시에라 레온</option>
+
+
+																					<option value="SG">싱가폴</option>
+
+
+																					<option value="AE">아랍에미리트</option>
+
+
+																					<option value="AW">아루바</option>
+
+
+																					<option value="AM">아르메니아</option>
+
+
+																					<option value="AR">아르헨티나</option>
+
+
+																					<option value="IS">아이슬랜드</option>
+
+
+																					<option value="HT">아이티</option>
+
+
+																					<option value="IE">아일랜드</option>
+
+
+																					<option value="AZ">아제르바이잔</option>
+
+
+																					<option value="AF">아프카니스탄</option>
+
+
+																					<option value="AD">안도라</option>
+
+
+																					<option value="AG">안티구아</option>
+
+
+																					<option value="AL">알바니아</option>
+
+
+																					<option value="DZ">알제리아</option>
+
+
+																					<option value="AO">앙골라</option>
+
+
+																					<option value="AI">앤귈라</option>
+
+
+																					<option value="ER">에리트레아</option>
+
+
+																					<option value="EE">에스토니아</option>
+
+
+																					<option value="EC">에콰도르</option>
+
+
+																					<option value="SV">엘살바도르</option>
+
+
+																					<option value="GB">영국</option>
+
+
+																					<option value="IO">영연방 인도양 영해</option>
+
+
+																					<option value="YE">예멘</option>
+
+
+																					<option value="OM">오만</option>
+
+
+																					<option value="AU">오스트레일리아(호주)</option>
+
+
+																					<option value="AT">오스트리아</option>
+
+
+																					<option value="HN">온두라스</option>
+
+
+																					<option value="JO">요르단</option>
+
+
+																					<option value="UG">우간다</option>
+
+
+																					<option value="UY">우루과이</option>
+
+
+																					<option value="UZ">우즈베키스탄</option>
+
+
+																					<option value="UA">우크라이나</option>
+
+
+																					<option value="WF">월리스 푸투나</option>
+
+
+																					<option value="YU">유고슬라비아</option>
+
+
+																					<option value="ET">이디오피아</option>
+
+
+																					<option value="IQ">이라크</option>
+
+
+																					<option value="IR">이란</option>
+
+
+																					<option value="IL">이스라엘</option>
+
+
+																					<option value="EG">이집트</option>
+
+
+																					<option value="IT">이탈리아</option>
+
+
+																					<option value="IN">인도</option>
+
+
+																					<option value="ID">인도네시아</option>
+
+
+																					<option value="JP">일본</option>
+
+
+																					<option value="JM">자메이카</option>
+
+
+																					<option value="ZM">잠비아</option>
+
+
+																					<option value="GQ">적도 기니</option>
+
+
+																					<option value="GE">조지아</option>
+
+
+																					<option value="CN">중국</option>
+
+
+																					<option value="CF">중앙아프리카공화국</option>
+
+
+																					<option value="GI">지브랄타</option>
+
+
+																					<option value="ZW">짐바브웨</option>
+
+
+																					<option value="TD">채드</option>
+
+
+																					<option value="CZ">체코</option>
+
+
+																					<option value="CL">칠레</option>
+
+
+																					<option value="CM">카메룬</option>
+
+
+																					<option value="KZ">카자흐스탄</option>
+
+
+																					<option value="QA">카타르</option>
+
+
+																					<option value="KH">캄보디아</option>
+
+
+																					<option value="CA">캐나다</option>
+
+
+																					<option value="KE">케냐</option>
+
+
+																					<option value="KY">케이만아일랜드</option>
+
+
+																					<option value="CV">케이프버드</option>
+
+
+																					<option value="KM">코모로스</option>
+
+
+																					<option value="CR">코스타리카</option>
+
+
+																					<option value="CC">코코스아일랜드</option>
+
+
+																					<option value="CI">코트디브와르</option>
+
+
+																					<option value="CO">콜롬비아</option>
+
+
+																					<option value="CG">콩고</option>
+
+
+																					<option value="CD">콩고민주공화국</option>
+
+
+																					<option value="CU">쿠바</option>
+
+
+																					<option value="KW">쿠웨이트</option>
+
+
+																					<option value="CK">쿡아일랜드</option>
+
+
+																					<option value="HR">크로아티아</option>
+
+
+																					<option value="CX">크리스마스아일랜드</option>
+
+
+																					<option value="KG">키르기즈스탄</option>
+
+
+																					<option value="KI">키리바시</option>
+
+
+																					<option value="TJ">타지키스탄</option>
+
+
+																					<option value="TZ">탄자니아</option>
+
+
+																					<option value="TH">태국</option>
+
+
+																					<option value="TR">터키</option>
+
+
+																					<option value="TG">토고</option>
+
+
+																					<option value="TK">토켈로</option>
+
+
+																					<option value="TO">통가</option>
+
+
+																					<option value="TM">투르크메니스탄</option>
+
+
+																					<option value="TC">투르크스&카이코스아일랜드</option>
+
+
+																					<option value="TV">투발루</option>
+
+
+																					<option value="TN">튀니지</option>
+
+
+																					<option value="TT">트리니나드토바고</option>
+
+
+																					<option value="PA">파나마</option>
+
+
+																					<option value="PY">파라과이</option>
+
+
+																					<option value="FO">파로아일랜드</option>
+
+
+																					<option value="PK">파키스탄</option>
+
+
+																					<option value="PG">파푸아 뉴기니</option>
+
+
+																					<option value="PS">팔레스타인</option>
+
+
+																					<option value="PW">팔로</option>
+
+
+																					<option value="PE">페루</option>
+
+
+																					<option value="PT">포르투갈</option>
+
+
+																					<option value="FK">포클랜드 제도</option>
+
+
+																					<option value="PL">폴란드</option>
+
+
+																					<option value="PR">푸에르토리코</option>
+
+
+																					<option value="FR">프랑스</option>
+
+
+																					<option value="TF">프랑스 남방 영토</option>
+
+
+																					<option value="GF">프랑스령 기아나</option>
+
+
+																					<option value="PF">프랑스령 폴리네시아</option>
+
+
+																					<option value="FJ">피지</option>
+
+
+																					<option value="FI">핀란드</option>
+
+
+																					<option value="PH">필리핀</option>
+
+
+																					<option value="PN">핏케언</option>
+
+
+																					<option value="HM">허드 맥도날드 제도</option>
+
+
+																					<option value="HU">헝가리</option>
+
+
+																					<option value="HK">홍콩</option>
+
+
+																			</select></li>
+																			<li><input type="checkbox" name="osentyn0"
+																				value="1" id="a7"
+																				onclick="javascript:checkGroup('osentyn');" /> <label
+																				for="a7">외국법인기업</label> <select name="osentyn"
+																				title="선택해주세요" disabled="true">
+																					<option selected value="1">국가선택</option>
+
+																					<option value="GH">가나</option>
+
+
+																					<option value="GA">가봉</option>
+
+
+																					<option value="GM">감비아</option>
+
+
+																					<option value="GT">과테말라</option>
+
+
+																					<option value="GU">괌</option>
+
+
+																					<option value="GP">구아델루프</option>
+
+
+																					<option value="GY">구야나</option>
+
+
+																					<option value="GN">구이니</option>
+
+
+																					<option value="GD">그레나다</option>
+
+
+																					<option value="GR">그리스</option>
+
+
+																					<option value="GL">그린랜드</option>
+
+
+																					<option value="GW">기니비사우</option>
+
+
+																					<option value="NA">나미비아</option>
+
+
+																					<option value="NR">나우루</option>
+
+
+																					<option value="NG">나이지리아</option>
+
+
+																					<option value="AQ">남극</option>
+
+
+																					<option value="ZA">남아프리카 공화국</option>
+
+
+																					<option value="GS">남조지아&남샌드위치아일랜드</option>
+
+
+																					<option value="NL">네덜란드</option>
+
+
+																					<option value="AN">네덜란드안틸레스</option>
+
+
+																					<option value="NP">네팔</option>
+
+
+																					<option value="NO">노르웨이</option>
+
+
+																					<option value="NF">노포크아일랜드</option>
+
+
+																					<option value="NZ">뉴질랜드</option>
+
+
+																					<option value="NC">뉴칼레도니아</option>
+
+
+																					<option value="NU">니우에</option>
+
+
+																					<option value="NE">니제르</option>
+
+
+																					<option value="NI">니카라과</option>
+
+
+																					<option value="TW">대만</option>
+
+
+																					<option value="KR">대한민국</option>
+
+
+																					<option value="DK">덴마크</option>
+
+
+																					<option value="DM">도미니카</option>
+
+
+																					<option value="DO">도미니카공화국</option>
+
+
+																					<option value="DE">독일</option>
+
+
+																					<option value="TP">동티모르</option>
+
+
+																					<option value="DJ">드지부티</option>
+
+
+																					<option value="LA">라오스 인민민주공화국</option>
+
+
+																					<option value="LR">라이베리아</option>
+
+
+																					<option value="LV">라트비아</option>
+
+
+																					<option value="RU">러시아</option>
+
+
+																					<option value="LB">레바논</option>
+
+
+																					<option value="LS">레소토</option>
+
+
+																					<option value="RO">루마니아</option>
+
+
+																					<option value="LU">룩셈부르크</option>
+
+
+																					<option value="RW">르완다</option>
+
+
+																					<option value="LY">리비아 아랍 자마힐리아</option>
+
+
+																					<option value="RE">리유니온</option>
+
+
+																					<option value="LT">리투아니아</option>
+
+
+																					<option value="LI">리히텐스타인</option>
+
+
+																					<option value="MG">마다가스카르</option>
+
+
+																					<option value="MQ">마르티니크</option>
+
+
+																					<option value="MH">마샬아일랜드</option>
+
+
+																					<option value="YT">마요트</option>
+
+
+																					<option value="UM">마이너아웃라잉아일랜드(미국령)</option>
+
+
+																					<option value="MO">마카오</option>
+
+
+																					<option value="MK">마케도니아</option>
+
+
+																					<option value="MW">말라위</option>
+
+
+																					<option value="MY">말레이시아</option>
+
+
+																					<option value="ML">말리</option>
+
+
+																					<option value="MX">멕시코</option>
+
+
+																					<option value="MC">모나코</option>
+
+
+																					<option value="MA">모로코</option>
+
+
+																					<option value="MU">모리셔스</option>
+
+
+																					<option value="MR">모리타니아</option>
+
+
+																					<option value="MZ">모잠비크</option>
+
+
+																					<option value="MD">몰도바</option>
+
+
+																					<option value="MV">몰디브</option>
+
+
+																					<option value="MT">몰타</option>
+
+
+																					<option value="MN">몽골</option>
+
+
+																					<option value="MS">몽세라트</option>
+
+
+																					<option value="US">미국</option>
+
+
+																					<option value="MM">미얀마</option>
+
+
+																					<option value="AS">미연방 사모아</option>
+
+
+																					<option value="FM">미크로네시아 연방</option>
+
+
+																					<option value="VU">바누아투</option>
+
+
+																					<option value="BH">바레인</option>
+
+
+																					<option value="BB">바바도스</option>
+
+
+																					<option value="VA">바티칸시티</option>
+
+
+																					<option value="BS">바하마</option>
+
+
+																					<option value="BD">방글라데시</option>
+
+
+																					<option value="BM">버뮤다</option>
+
+
+																					<option value="VI">버진아일랜드(미국령)</option>
+
+
+																					<option value="VG">버진아일랜드(영국령)</option>
+
+
+																					<option value="VE">베네주엘라</option>
+
+
+																					<option value="BJ">베닌</option>
+
+
+																					<option value="VN">베트남</option>
+
+
+																					<option value="BE">벨기에</option>
+
+
+																					<option value="BY">벨라루스</option>
+
+
+																					<option value="BZ">벨리즈</option>
+
+
+																					<option value="BA">보스니아 헤르제고비나 공화국</option>
+
+
+																					<option value="BW">보츠와나 공화국</option>
+
+
+																					<option value="BO">볼리비아</option>
+
+
+																					<option value="BF">부르키나 파소</option>
+
+
+																					<option value="BV">부벳아일랜드</option>
+
+
+																					<option value="BT">부탄</option>
+
+
+																					<option value="MP">북마리아나아일랜드</option>
+
+
+																					<option value="KP">북한</option>
+
+
+																					<option value="BG">불가리아</option>
+
+
+																					<option value="BR">브라질</option>
+
+
+																					<option value="BN">브루나이</option>
+
+
+																					<option value="BI">브룬디</option>
+
+
+																					<option value="WS">사모아</option>
+
+
+																					<option value="SA">사우디아라비아</option>
+
+
+																					<option value="CY">사이프러스</option>
+
+
+																					<option value="SM">산마리노</option>
+
+
+																					<option value="ST">상투메 프린시페</option>
+
+
+																					<option value="EH">서 사하라</option>
+
+
+																					<option value="SN">세네갈</option>
+
+
+																					<option value="SC">세이셸</option>
+
+
+																					<option value="LC">세인트루시아</option>
+
+
+																					<option value="VC">세인트빈센트</option>
+
+
+																					<option value="KN">세인트키트</option>
+
+
+																					<option value="PM">세인트피에르</option>
+
+
+																					<option value="SH">세인트헬레나</option>
+
+
+																					<option value="SO">소말리아</option>
+
+
+																					<option value="SB">솔로몬아일랜드</option>
+
+
+																					<option value="SD">수단</option>
+
+
+																					<option value="SR">수리남</option>
+
+
+																					<option value="LK">스리랑카</option>
+
+
+																					<option value="SJ">스발바르드&잔메옌</option>
+
+
+																					<option value="SZ">스와질란드</option>
+
+
+																					<option value="SE">스웨덴</option>
+
+
+																					<option value="CH">스위스</option>
+
+
+																					<option value="ES">스페인</option>
+
+
+																					<option value="SK">슬로바키아</option>
+
+
+																					<option value="SI">슬로베니아</option>
+
+
+																					<option value="SY">시리아</option>
+
+
+																					<option value="SL">시에라 레온</option>
+
+
+																					<option value="SG">싱가폴</option>
+
+
+																					<option value="AE">아랍에미리트</option>
+
+
+																					<option value="AW">아루바</option>
+
+
+																					<option value="AM">아르메니아</option>
+
+
+																					<option value="AR">아르헨티나</option>
+
+
+																					<option value="IS">아이슬랜드</option>
+
+
+																					<option value="HT">아이티</option>
+
+
+																					<option value="IE">아일랜드</option>
+
+
+																					<option value="AZ">아제르바이잔</option>
+
+
+																					<option value="AF">아프카니스탄</option>
+
+
+																					<option value="AD">안도라</option>
+
+
+																					<option value="AG">안티구아</option>
+
+
+																					<option value="AL">알바니아</option>
+
+
+																					<option value="DZ">알제리아</option>
+
+
+																					<option value="AO">앙골라</option>
+
+
+																					<option value="AI">앤귈라</option>
+
+
+																					<option value="ER">에리트레아</option>
+
+
+																					<option value="EE">에스토니아</option>
+
+
+																					<option value="EC">에콰도르</option>
+
+
+																					<option value="SV">엘살바도르</option>
+
+
+																					<option value="GB">영국</option>
+
+
+																					<option value="IO">영연방 인도양 영해</option>
+
+
+																					<option value="YE">예멘</option>
+
+
+																					<option value="OM">오만</option>
+
+
+																					<option value="AU">오스트레일리아(호주)</option>
+
+
+																					<option value="AT">오스트리아</option>
+
+
+																					<option value="HN">온두라스</option>
+
+
+																					<option value="JO">요르단</option>
+
+
+																					<option value="UG">우간다</option>
+
+
+																					<option value="UY">우루과이</option>
+
+
+																					<option value="UZ">우즈베키스탄</option>
+
+
+																					<option value="UA">우크라이나</option>
+
+
+																					<option value="WF">월리스 푸투나</option>
+
+
+																					<option value="YU">유고슬라비아</option>
+
+
+																					<option value="ET">이디오피아</option>
+
+
+																					<option value="IQ">이라크</option>
+
+
+																					<option value="IR">이란</option>
+
+
+																					<option value="IL">이스라엘</option>
+
+
+																					<option value="EG">이집트</option>
+
+
+																					<option value="IT">이탈리아</option>
+
+
+																					<option value="IN">인도</option>
+
+
+																					<option value="ID">인도네시아</option>
+
+
+																					<option value="JP">일본</option>
+
+
+																					<option value="JM">자메이카</option>
+
+
+																					<option value="ZM">잠비아</option>
+
+
+																					<option value="GQ">적도 기니</option>
+
+
+																					<option value="GE">조지아</option>
+
+
+																					<option value="CN">중국</option>
+
+
+																					<option value="CF">중앙아프리카공화국</option>
+
+
+																					<option value="GI">지브랄타</option>
+
+
+																					<option value="ZW">짐바브웨</option>
+
+
+																					<option value="TD">채드</option>
+
+
+																					<option value="CZ">체코</option>
+
+
+																					<option value="CL">칠레</option>
+
+
+																					<option value="CM">카메룬</option>
+
+
+																					<option value="KZ">카자흐스탄</option>
+
+
+																					<option value="QA">카타르</option>
+
+
+																					<option value="KH">캄보디아</option>
+
+
+																					<option value="CA">캐나다</option>
+
+
+																					<option value="KE">케냐</option>
+
+
+																					<option value="KY">케이만아일랜드</option>
+
+
+																					<option value="CV">케이프버드</option>
+
+
+																					<option value="KM">코모로스</option>
+
+
+																					<option value="CR">코스타리카</option>
+
+
+																					<option value="CC">코코스아일랜드</option>
+
+
+																					<option value="CI">코트디브와르</option>
+
+
+																					<option value="CO">콜롬비아</option>
+
+
+																					<option value="CG">콩고</option>
+
+
+																					<option value="CD">콩고민주공화국</option>
+
+
+																					<option value="CU">쿠바</option>
+
+
+																					<option value="KW">쿠웨이트</option>
+
+
+																					<option value="CK">쿡아일랜드</option>
+
+
+																					<option value="HR">크로아티아</option>
+
+
+																					<option value="CX">크리스마스아일랜드</option>
+
+
+																					<option value="KG">키르기즈스탄</option>
+
+
+																					<option value="KI">키리바시</option>
+
+
+																					<option value="TJ">타지키스탄</option>
+
+
+																					<option value="TZ">탄자니아</option>
+
+
+																					<option value="TH">태국</option>
+
+
+																					<option value="TR">터키</option>
+
+
+																					<option value="TG">토고</option>
+
+
+																					<option value="TK">토켈로</option>
+
+
+																					<option value="TO">통가</option>
+
+
+																					<option value="TM">투르크메니스탄</option>
+
+
+																					<option value="TC">투르크스&카이코스아일랜드</option>
+
+
+																					<option value="TV">투발루</option>
+
+
+																					<option value="TN">튀니지</option>
+
+
+																					<option value="TT">트리니나드토바고</option>
+
+
+																					<option value="PA">파나마</option>
+
+
+																					<option value="PY">파라과이</option>
+
+
+																					<option value="FO">파로아일랜드</option>
+
+
+																					<option value="PK">파키스탄</option>
+
+
+																					<option value="PG">파푸아 뉴기니</option>
+
+
+																					<option value="PS">팔레스타인</option>
+
+
+																					<option value="PW">팔로</option>
+
+
+																					<option value="PE">페루</option>
+
+
+																					<option value="PT">포르투갈</option>
+
+
+																					<option value="FK">포클랜드 제도</option>
+
+
+																					<option value="PL">폴란드</option>
+
+
+																					<option value="PR">푸에르토리코</option>
+
+
+																					<option value="FR">프랑스</option>
+
+
+																					<option value="TF">프랑스 남방 영토</option>
+
+
+																					<option value="GF">프랑스령 기아나</option>
+
+
+																					<option value="PF">프랑스령 폴리네시아</option>
+
+
+																					<option value="FJ">피지</option>
+
+
+																					<option value="FI">핀란드</option>
+
+
+																					<option value="PH">필리핀</option>
+
+
+																					<option value="PN">핏케언</option>
+
+
+																					<option value="HM">허드 맥도날드 제도</option>
+
+
+																					<option value="HU">헝가리</option>
+
+
+																					<option value="HK">홍콩</option>
+
+
+																			</select></li>
+																			<li><input type="checkbox" name="chammemyn0"
+																				value="1" id="a8"
+																				onclick="javascript:checkGroup('chammemyn');" /> <label
+																				for="a8">전국상공회의소회원기업</label> <select
+																				name="chammemyn" title="선택해주세요" disabled="true">
+																					<option selected value="1">상공회의소전체</option>
+																					<option value="A001">대한상공회의소</option>
+																					<option value="B001">서울상공회의소</option>
+																					<option value="B002">부산상공회의소</option>
+																					<option value="B003">대구상공회의소</option>
+																					<option value="B004">인천상공회의소</option>
+																					<option value="B005">광주상공회의소</option>
+																					<option value="B006">대전상공회의소</option>
+																					<option value="B007">울산상공회의소</option>
+																					<option value="B008">수원상공회의소</option>
+																					<option value="B009">안성상공회의소</option>
+																					<option value="B010">안양상공회의소</option>
+																					<option value="B011">부천상공회의소</option>
+																					<option value="B012">성남상공회의소</option>
+																					<option value="B013">경기북부상공회의소</option>
+																					<option value="B071">의왕상공회의소</option>
+																					<option value="B072">파주상공회의소</option>
+																					<option value="B014">평택상공회의소</option>
+																					<option value="B015">이천상공회의소</option>
+																					<option value="B016">안산상공회의소</option>
+																					<option value="B017">화성상공회의소</option>
+																					<option value="B018">용인상공회의소</option>
+																					<option value="B019">김포상공회의소</option>
+																					<option value="B020">군포상공회의소</option>
+																					<option value="B021">하광상공회의소</option>
+																					<option value="B022">시흥상공회의소</option>
+																					<option value="B064">광명상공회의소</option>
+																					<option value="B065">경기동부상공회의소</option>
+																					<option value="B066">고양상공회의소</option>
+																					<option value="B068">포천상공회의소</option>
+																					<option value="B069">오산상공회의소</option>
+																					<option value="B023">춘천상공회의소</option>
+																					<option value="B024">강릉상공회의소</option>
+																					<option value="B025">원주상공회의소</option>
+																					<option value="B026">삼척상공회의소</option>
+																					<option value="B027">속초상공회의소</option>
+																					<option value="B028">동해상공회의소</option>
+																					<option value="B029">태백상공회의소</option>
+																					<option value="B030">청주상공회의소</option>
+																					<option value="B031">충주상공회의소</option>
+																					<option value="B063">음성상공회의소</option>
+																					<option value="B067">진천상공회의소</option>
+																					<option value="B070">당진상공회의소</option>
+																					<option value="B032">충남북부상공회의소</option>
+																					<option value="B033">충남서부상공회의소</option>
+																					<option value="B034">전주상공회의소</option>
+																					<option value="B035">익산상공회의소</option>
+																					<option value="B036">군산상공회의소</option>
+																					<option value="B037">정읍상공회의소</option>
+																					<option value="B039">순천광양상공회의소</option>
+																					<option value="B040">여수상공회의소</option>
+																					<option value="B038">목포상공회의소</option>
+																					<option value="B041">김천상공회의소</option>
+																					<option value="B042">안동상공회의소</option>
+																					<option value="B043">포항상공회의소</option>
+																					<option value="B044">경주상공회의소</option>
+																					<option value="B045">영주상공회의소</option>
+																					<option value="B046">구미상공회의소</option>
+																					<option value="B047">경산상공회의소</option>
+																					<option value="B048">달성상공회의소</option>
+																					<option value="B049">영천상공회의소</option>
+																					<option value="B050">칠곡상공회의소</option>
+																					<option value="B052">진주상공회의소</option>
+																					<option value="B053">통영상공회의소</option>
+																					<option value="B054">사천상공회의소</option>
+																					<option value="B074">창원상공회의소</option>
+																					<option value="B057">양산상공회의소</option>
+																					<option value="B058">김해상공회의소</option>
+																					<option value="B059">밀양상공회의소</option>
+																					<option value="B060">함안상공회의소</option>
+																					<option value="B061">거제상공회의소</option>
+																					<option value="B062">제주상공회의소</option>
+																					<option value="B073">광양상공회의소</option>
+																			</select></li>
+																			<li><input type="checkbox" name="guccicdyn0"
+																				value="1" id="a9"
+																				onclick="javascript:checkGroup('guccicdyn');" /> <label
+																				for="a9">서울시상공회회원기업</label> <select name="guccicdyn"
+																				title="선택해주세요" disabled="true">
+																					<option selected value="1">상공회전체</option>
+
+																					<option value="F023">강남구상공회</option>
+
+																					<option value="F022">강동구상공회</option>
+
+																					<option value="F013">강북구상공회</option>
+
+																					<option value="F019">강서구상공회</option>
+
+																					<option value="F018">관악구상공회</option>
+
+																					<option value="F015">광진구상공회</option>
+
+																					<option value="F008">구로구상공회</option>
+
+																					<option value="F025">금천구상공회</option>
+
+																					<option value="F012">노원구상공회</option>
+
+																					<option value="F002">도봉구상공회</option>
+
+																					<option value="F011">동대문구상공회</option>
+
+																					<option value="F017">동작구상공회</option>
+
+																					<option value="F005">마포구상공회</option>
+
+																					<option value="F007">서대문구상공회</option>
+
+																					<option value="F003">서초구상공회</option>
+
+																					<option value="F001">성동구상공회</option>
+
+																					<option value="F006">성북구상공회</option>
+
+																					<option value="F024">송파구상공회</option>
+
+																					<option value="F020">양천구상공회</option>
+
+																					<option value="F016">영등포구상공회</option>
+
+																					<option value="F010">용산구상공회</option>
+
+																					<option value="F021">은평구상공회</option>
+
+																					<option value="F009">종로구상공회</option>
+
+																					<option value="F004">중구상공회</option>
+
+																					<option value="F014">중랑구상공회</option>
+
+																			</select></li>
+																			<li><input type="checkbox" name="ctlchamcd0"
+																				value="1" id="a10"
+																				onclick="javascript:checkGroup('ctlchamcd');" /> <label
+																				for="a10">관할상의별기업</label> <select name="ctlchamcd"
+																				title="선택해주세요" disabled="true">
+																					<option selected>상의선택</option>
+
+
+																					<option value="B001">서울상공회의소</option>
+
+
+																					<option value="B002">부산상공회의소</option>
+
+
+																					<option value="B003">대구상공회의소</option>
+
+
+																					<option value="B004">인천상공회의소</option>
+
+
+																					<option value="B005">광주상공회의소</option>
+
+
+																					<option value="B006">대전상공회의소</option>
+
+
+																					<option value="B007">울산상공회의소</option>
+
+
+																					<option value="B008">수원상공회의소</option>
+
+
+																					<option value="B009">안성상공회의소</option>
+
+
+																					<option value="B010">안양상공회의소</option>
+
+
+																					<option value="B011">부천상공회의소</option>
+
+
+																					<option value="B012">성남상공회의소</option>
+
+
+																					<option value="B013">경기북부상공회의소</option>
+
+
+																					<option value="B014">평택상공회의소</option>
+
+
+																					<option value="B015">이천상공회의소</option>
+
+
+																					<option value="B016">안산상공회의소</option>
+
+
+																					<option value="B017">화성상공회의소</option>
+
+
+																					<option value="B018">용인상공회의소</option>
+
+
+																					<option value="B019">김포상공회의소</option>
+
+
+																					<option value="B020">군포상공회의소</option>
+
+
+																					<option value="B021">하광상공회의소</option>
+
+
+																					<option value="B022">시흥상공회의소</option>
+
+
+																					<option value="B023">춘천상공회의소</option>
+
+
+																					<option value="B024">강릉상공회의소</option>
+
+
+																					<option value="B025">원주상공회의소</option>
+
+
+																					<option value="B026">삼척상공회의소</option>
+
+
+																					<option value="B027">속초상공회의소</option>
+
+
+																					<option value="B028">동해상공회의소</option>
+
+
+																					<option value="B029">태백상공회의소</option>
+
+
+																					<option value="B030">청주상공회의소</option>
+
+
+																					<option value="B031">충주상공회의소</option>
+
+
+																					<option value="B032">충남북부상공회의소</option>
+
+
+																					<option value="B033">서산상공회의소</option>
+
+
+																					<option value="B034">전주상공회의소</option>
+
+
+																					<option value="B035">익산상공회의소</option>
+
+
+																					<option value="B036">군산상공회의소</option>
+
+
+																					<option value="B037">정읍상공회의소</option>
+
+
+																					<option value="B038">목포상공회의소</option>
+
+
+																					<option value="B039">순천상공회의소</option>
+
+
+																					<option value="B040">여수상공회의소</option>
+
+
+																					<option value="B041">김천상공회의소</option>
+
+
+																					<option value="B042">안동상공회의소</option>
+
+
+																					<option value="B043">포항상공회의소</option>
+
+
+																					<option value="B044">경주상공회의소</option>
+
+
+																					<option value="B045">영주상공회의소</option>
+
+
+																					<option value="B046">구미상공회의소</option>
+
+
+																					<option value="B047">경산상공회의소</option>
+
+
+																					<option value="B049">영천상공회의소</option>
+
+
+																					<option value="B050">칠곡상공회의소</option>
+
+
+																					<option value="B052">진주상공회의소</option>
+
+
+																					<option value="B053">통영상공회의소</option>
+
+
+																					<option value="B054">사천상공회의소</option>
+
+
+																					<option value="B057">양산상공회의소</option>
+
+
+																					<option value="B058">김해상공회의소</option>
+
+
+																					<option value="B059">밀양상공회의소</option>
+
+
+																					<option value="B060">함안상공회의소</option>
+
+
+																					<option value="B061">거제상공회의소</option>
+
+
+																					<option value="B062">제주상공회의소</option>
+
+
+																					<option value="B063">음성상공회의소</option>
+
+
+																					<option value="B064">광명상공회의소</option>
+
+
+																					<option value="B065">경기동부상공회의소</option>
+
+
+																					<option value="B066">고양상공회의소</option>
+
+
+																					<option value="B067">진천상공회의소</option>
+
+
+																					<option value="B068">포천상공회의소</option>
+
+
+																					<option value="B069">오산상공회의소</option>
+
+
+																					<option value="B070">당진상공회의소</option>
+
+
+																					<option value="B071">의왕상공회의소</option>
+
+
+																					<option value="B072">파주상공회의소</option>
+
+
+																					<option value="B073">광양상공회의소</option>
+
+
+																					<option value="B074">창원상공회의소</option>
+
+
+																					<option value="B075">상주상공회의소</option>
+
+																			</select></li>
+																		</ul>
+																	</td>
+																</tr>
+																<tr>
+																	<th scope="row">수출입여부</th>
+																	<td colspan="3">
+																		<ul class="list_mar">
+																			<li><input type="checkbox" name="importation"
+																				value="C02" id="impexpkind0"
+																				onclick="javascript:checkGroup('impexpcd');" /> <label
+																				for="a11">수입</label></li>
+																			<li><input type="checkbox" name="exportation"
+																				value="C01" id="impexpkind1"
+																				onclick="javascript:checkGroup('impexpcd');" /> <label
+																				for="a12">수출</label></li>
+																			<li><input type="checkbox" name="imExport"
+																				value="C03" id="impexpkind2"
+																				onclick="javascript:checkGroup('impexpcd');" /> <label
+																				for="a13">수출입</label> <select name="impexpcd"
+																				title="선택해주세요" disabled="true">
+																					<option selected value="1">국가선택</option>
+
+																					<option value="GH">가나</option>
+
+
+																					<option value="GA">가봉</option>
+
+
+																					<option value="GM">감비아</option>
+
+
+																					<option value="GT">과테말라</option>
+
+
+																					<option value="GU">괌</option>
+
+
+																					<option value="GP">구아델루프</option>
+
+
+																					<option value="GY">구야나</option>
+
+
+																					<option value="GN">구이니</option>
+
+
+																					<option value="GD">그레나다</option>
+
+
+																					<option value="GR">그리스</option>
+
+
+																					<option value="GL">그린랜드</option>
+
+
+																					<option value="GW">기니비사우</option>
+
+
+																					<option value="NA">나미비아</option>
+
+
+																					<option value="NR">나우루</option>
+
+
+																					<option value="NG">나이지리아</option>
+
+
+																					<option value="AQ">남극</option>
+
+
+																					<option value="ZA">남아프리카 공화국</option>
+
+
+																					<option value="GS">남조지아&남샌드위치아일랜드</option>
+
+
+																					<option value="NL">네덜란드</option>
+
+
+																					<option value="AN">네덜란드안틸레스</option>
+
+
+																					<option value="NP">네팔</option>
+
+
+																					<option value="NO">노르웨이</option>
+
+
+																					<option value="NF">노포크아일랜드</option>
+
+
+																					<option value="NZ">뉴질랜드</option>
+
+
+																					<option value="NC">뉴칼레도니아</option>
+
+
+																					<option value="NU">니우에</option>
+
+
+																					<option value="NE">니제르</option>
+
+
+																					<option value="NI">니카라과</option>
+
+
+																					<option value="TW">대만</option>
+
+
+																					<option value="KR">대한민국</option>
+
+
+																					<option value="DK">덴마크</option>
+
+
+																					<option value="DM">도미니카</option>
+
+
+																					<option value="DO">도미니카공화국</option>
+
+
+																					<option value="DE">독일</option>
+
+
+																					<option value="TP">동티모르</option>
+
+
+																					<option value="DJ">드지부티</option>
+
+
+																					<option value="LA">라오스 인민민주공화국</option>
+
+
+																					<option value="LR">라이베리아</option>
+
+
+																					<option value="LV">라트비아</option>
+
+
+																					<option value="RU">러시아</option>
+
+
+																					<option value="LB">레바논</option>
+
+
+																					<option value="LS">레소토</option>
+
+
+																					<option value="RO">루마니아</option>
+
+
+																					<option value="LU">룩셈부르크</option>
+
+
+																					<option value="RW">르완다</option>
+
+
+																					<option value="LY">리비아 아랍 자마힐리아</option>
+
+
+																					<option value="RE">리유니온</option>
+
+
+																					<option value="LT">리투아니아</option>
+
+
+																					<option value="LI">리히텐스타인</option>
+
+
+																					<option value="MG">마다가스카르</option>
+
+
+																					<option value="MQ">마르티니크</option>
+
+
+																					<option value="MH">마샬아일랜드</option>
+
+
+																					<option value="YT">마요트</option>
+
+
+																					<option value="UM">마이너아웃라잉아일랜드(미국령)</option>
+
+
+																					<option value="MO">마카오</option>
+
+
+																					<option value="MK">마케도니아</option>
+
+
+																					<option value="MW">말라위</option>
+
+
+																					<option value="MY">말레이시아</option>
+
+
+																					<option value="ML">말리</option>
+
+
+																					<option value="MX">멕시코</option>
+
+
+																					<option value="MC">모나코</option>
+
+
+																					<option value="MA">모로코</option>
+
+
+																					<option value="MU">모리셔스</option>
+
+
+																					<option value="MR">모리타니아</option>
+
+
+																					<option value="MZ">모잠비크</option>
+
+
+																					<option value="MD">몰도바</option>
+
+
+																					<option value="MV">몰디브</option>
+
+
+																					<option value="MT">몰타</option>
+
+
+																					<option value="MN">몽골</option>
+
+
+																					<option value="MS">몽세라트</option>
+
+
+																					<option value="US">미국</option>
+
+
+																					<option value="MM">미얀마</option>
+
+
+																					<option value="AS">미연방 사모아</option>
+
+
+																					<option value="FM">미크로네시아 연방</option>
+
+
+																					<option value="VU">바누아투</option>
+
+
+																					<option value="BH">바레인</option>
+
+
+																					<option value="BB">바바도스</option>
+
+
+																					<option value="VA">바티칸시티</option>
+
+
+																					<option value="BS">바하마</option>
+
+
+																					<option value="BD">방글라데시</option>
+
+
+																					<option value="BM">버뮤다</option>
+
+
+																					<option value="VI">버진아일랜드(미국령)</option>
+
+
+																					<option value="VG">버진아일랜드(영국령)</option>
+
+
+																					<option value="VE">베네주엘라</option>
+
+
+																					<option value="BJ">베닌</option>
+
+
+																					<option value="VN">베트남</option>
+
+
+																					<option value="BE">벨기에</option>
+
+
+																					<option value="BY">벨라루스</option>
+
+
+																					<option value="BZ">벨리즈</option>
+
+
+																					<option value="BA">보스니아 헤르제고비나 공화국</option>
+
+
+																					<option value="BW">보츠와나 공화국</option>
+
+
+																					<option value="BO">볼리비아</option>
+
+
+																					<option value="BF">부르키나 파소</option>
+
+
+																					<option value="BV">부벳아일랜드</option>
+
+
+																					<option value="BT">부탄</option>
+
+
+																					<option value="MP">북마리아나아일랜드</option>
+
+
+																					<option value="KP">북한</option>
+
+
+																					<option value="BG">불가리아</option>
+
+
+																					<option value="BR">브라질</option>
+
+
+																					<option value="BN">브루나이</option>
+
+
+																					<option value="BI">브룬디</option>
+
+
+																					<option value="WS">사모아</option>
+
+
+																					<option value="SA">사우디아라비아</option>
+
+
+																					<option value="CY">사이프러스</option>
+
+
+																					<option value="SM">산마리노</option>
+
+
+																					<option value="ST">상투메 프린시페</option>
+
+
+																					<option value="EH">서 사하라</option>
+
+
+																					<option value="SN">세네갈</option>
+
+
+																					<option value="SC">세이셸</option>
+
+
+																					<option value="LC">세인트루시아</option>
+
+
+																					<option value="VC">세인트빈센트</option>
+
+
+																					<option value="KN">세인트키트</option>
+
+
+																					<option value="PM">세인트피에르</option>
+
+
+																					<option value="SH">세인트헬레나</option>
+
+
+																					<option value="SO">소말리아</option>
+
+
+																					<option value="SB">솔로몬아일랜드</option>
+
+
+																					<option value="SD">수단</option>
+
+
+																					<option value="SR">수리남</option>
+
+
+																					<option value="LK">스리랑카</option>
+
+
+																					<option value="SJ">스발바르드&잔메옌</option>
+
+
+																					<option value="SZ">스와질란드</option>
+
+
+																					<option value="SE">스웨덴</option>
+
+
+																					<option value="CH">스위스</option>
+
+
+																					<option value="ES">스페인</option>
+
+
+																					<option value="SK">슬로바키아</option>
+
+
+																					<option value="SI">슬로베니아</option>
+
+
+																					<option value="SY">시리아</option>
+
+
+																					<option value="SL">시에라 레온</option>
+
+
+																					<option value="SG">싱가폴</option>
+
+
+																					<option value="AE">아랍에미리트</option>
+
+
+																					<option value="AW">아루바</option>
+
+
+																					<option value="AM">아르메니아</option>
+
+
+																					<option value="AR">아르헨티나</option>
+
+
+																					<option value="IS">아이슬랜드</option>
+
+
+																					<option value="HT">아이티</option>
+
+
+																					<option value="IE">아일랜드</option>
+
+
+																					<option value="AZ">아제르바이잔</option>
+
+
+																					<option value="AF">아프카니스탄</option>
+
+
+																					<option value="AD">안도라</option>
+
+
+																					<option value="AG">안티구아</option>
+
+
+																					<option value="AL">알바니아</option>
+
+
+																					<option value="DZ">알제리아</option>
+
+
+																					<option value="AO">앙골라</option>
+
+
+																					<option value="AI">앤귈라</option>
+
+
+																					<option value="ER">에리트레아</option>
+
+
+																					<option value="EE">에스토니아</option>
+
+
+																					<option value="EC">에콰도르</option>
+
+
+																					<option value="SV">엘살바도르</option>
+
+
+																					<option value="GB">영국</option>
+
+
+																					<option value="IO">영연방 인도양 영해</option>
+
+
+																					<option value="YE">예멘</option>
+
+
+																					<option value="OM">오만</option>
+
+
+																					<option value="AU">오스트레일리아(호주)</option>
+
+
+																					<option value="AT">오스트리아</option>
+
+
+																					<option value="HN">온두라스</option>
+
+
+																					<option value="JO">요르단</option>
+
+
+																					<option value="UG">우간다</option>
+
+
+																					<option value="UY">우루과이</option>
+
+
+																					<option value="UZ">우즈베키스탄</option>
+
+
+																					<option value="UA">우크라이나</option>
+
+
+																					<option value="WF">월리스 푸투나</option>
+
+
+																					<option value="YU">유고슬라비아</option>
+
+
+																					<option value="ET">이디오피아</option>
+
+
+																					<option value="IQ">이라크</option>
+
+
+																					<option value="IR">이란</option>
+
+
+																					<option value="IL">이스라엘</option>
+
+
+																					<option value="EG">이집트</option>
+
+
+																					<option value="IT">이탈리아</option>
+
+
+																					<option value="IN">인도</option>
+
+
+																					<option value="ID">인도네시아</option>
+
+
+																					<option value="JP">일본</option>
+
+
+																					<option value="JM">자메이카</option>
+
+
+																					<option value="ZM">잠비아</option>
+
+
+																					<option value="GQ">적도 기니</option>
+
+
+																					<option value="GE">조지아</option>
+
+
+																					<option value="CN">중국</option>
+
+
+																					<option value="CF">중앙아프리카공화국</option>
+
+
+																					<option value="GI">지브랄타</option>
+
+
+																					<option value="ZW">짐바브웨</option>
+
+
+																					<option value="TD">채드</option>
+
+
+																					<option value="CZ">체코</option>
+
+
+																					<option value="CL">칠레</option>
+
+
+																					<option value="CM">카메룬</option>
+
+
+																					<option value="KZ">카자흐스탄</option>
+
+
+																					<option value="QA">카타르</option>
+
+
+																					<option value="KH">캄보디아</option>
+
+
+																					<option value="CA">캐나다</option>
+
+
+																					<option value="KE">케냐</option>
+
+
+																					<option value="KY">케이만아일랜드</option>
+
+
+																					<option value="CV">케이프버드</option>
+
+
+																					<option value="KM">코모로스</option>
+
+
+																					<option value="CR">코스타리카</option>
+
+
+																					<option value="CC">코코스아일랜드</option>
+
+
+																					<option value="CI">코트디브와르</option>
+
+
+																					<option value="CO">콜롬비아</option>
+
+
+																					<option value="CG">콩고</option>
+
+
+																					<option value="CD">콩고민주공화국</option>
+
+
+																					<option value="CU">쿠바</option>
+
+
+																					<option value="KW">쿠웨이트</option>
+
+
+																					<option value="CK">쿡아일랜드</option>
+
+
+																					<option value="HR">크로아티아</option>
+
+
+																					<option value="CX">크리스마스아일랜드</option>
+
+
+																					<option value="KG">키르기즈스탄</option>
+
+
+																					<option value="KI">키리바시</option>
+
+
+																					<option value="TJ">타지키스탄</option>
+
+
+																					<option value="TZ">탄자니아</option>
+
+
+																					<option value="TH">태국</option>
+
+
+																					<option value="TR">터키</option>
+
+
+																					<option value="TG">토고</option>
+
+
+																					<option value="TK">토켈로</option>
+
+
+																					<option value="TO">통가</option>
+
+
+																					<option value="TM">투르크메니스탄</option>
+
+
+																					<option value="TC">투르크스&카이코스아일랜드</option>
+
+
+																					<option value="TV">투발루</option>
+
+
+																					<option value="TN">튀니지</option>
+
+
+																					<option value="TT">트리니나드토바고</option>
+
+
+																					<option value="PA">파나마</option>
+
+
+																					<option value="PY">파라과이</option>
+
+
+																					<option value="FO">파로아일랜드</option>
+
+
+																					<option value="PK">파키스탄</option>
+
+
+																					<option value="PG">파푸아 뉴기니</option>
+
+
+																					<option value="PS">팔레스타인</option>
+
+
+																					<option value="PW">팔로</option>
+
+
+																					<option value="PE">페루</option>
+
+
+																					<option value="PT">포르투갈</option>
+
+
+																					<option value="FK">포클랜드 제도</option>
+
+
+																					<option value="PL">폴란드</option>
+
+
+																					<option value="PR">푸에르토리코</option>
+
+
+																					<option value="FR">프랑스</option>
+
+
+																					<option value="TF">프랑스 남방 영토</option>
+
+
+																					<option value="GF">프랑스령 기아나</option>
+
+
+																					<option value="PF">프랑스령 폴리네시아</option>
+
+
+																					<option value="FJ">피지</option>
+
+
+																					<option value="FI">핀란드</option>
+
+
+																					<option value="PH">필리핀</option>
+
+
+																					<option value="PN">핏케언</option>
+
+
+																					<option value="HM">허드 맥도날드 제도</option>
+
+
+																					<option value="HU">헝가리</option>
+
+
+																					<option value="HK">홍콩</option>
+
+
+																			</select></li>
+																		</ul>
+																	</td>
+																</tr>
+																<tr>
+																	<th scope="row">상장여부</th>
+																	<td colspan="3">
+																		<ul class="list_mar">
+																			<li><input type="checkbox" name="stock"
+																				value="B01" id="a14" /> <label for="a14">유가증권</label>
+																			</li>
+																			<li><input type="checkbox" name="kosdaq"
+																				value="B02" id="a15" /> <label for="a15">코스닥</label></li>
+																			<li><input type="checkbox" name="konex"
+																				value="B05" id="a16" /> <label for="a16">코넥스</label></li>
+																		</ul>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+													<div class="t_right" style="margin: 7px 0 10px 0;">
+														<a href="#" onClick="javascript:detailSeachKwd(this);"
+															class="btn_sch_big"><span>검색</span></a> <a href="#"
+															onClick="javascript:document.detailSearchForm.reset();"
+															class="btn_cancel_mid layer_cancel"><span>취소</span></a>
+													</div> <!--div class="btn_wrap mr10">
+						<input type="submit" onClick="detailSeachKwd(this);" class="btn_sch_big" value="검색">
+						<input type="button" onClick="document.detailSearchForm.reset();" class="btn_cancel_mid mrt1 layer_cancel" value="취소">
+					</div--> <input type="hidden" name="detailSearch" value="true" /> <input
+													type="hidden" name="category" value="TOTAL" />
+								</form>
+								<!-- //리스트 내용 -->
+							</div>
+							<!-- //팝업 내용 -->
+							<!-- 20141016 베너 추가 -->
+							<div class="pop_banner_area">
+								<script language="javascript"
+									src="http://ad.korchambiz.net:8080/js.kti/korchambiz/sub_new2@right2"></script>
+							</div>
+							<!-- //20141016 베너 추가 -->
+						</div>
+					</div>
+					<!-- //상세팝업 -->
+					<span class="btn_detail_sch"><button type="button"
+							id="layer_open2">전체메뉴 보기</button></span>
+					<!-- 상세팝업 -->
+					<div class="layer layer2">
+						<div class="bg"></div>
+						<div class="layer_area" id="layer2">
+							<div class="modal_header">
+								<h2>사이트 맵</h2>
+								<span class="button medium"><a href="#"
+									class="layer_close"><img
+										src="/img/main/btn_modal_close.png" alt="팝업 닫기" /></a></span>
+							</div>
+							<!-- 사이트맵 내용 -->
+							<div class="sitemap_wrap">
+								<div class="site_menu1">
+									<h3>
+										<a href="http://www.korchambiz.net/COMPI/compi_directory.jsp">기업정보</a>
+									</h3>
+									<ul class="">
+										<li><a
+											href="http://www.korchambiz.net/COMPI/compi_directory.jsp">업종별
+												분류</a></li>
+										<li><a
+											href="http://www.korchambiz.net/COMPI/compi_areamap.jsp">지역별
+												분류</a></li>
+										<li class="bort_no"><a
+											href="http://www.korchambiz.net/COMPI/compi_part.jsp">분야별
+												분류</a>
+											<ul>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010301');">30대그룹</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010302');">1000대기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010303');">상장기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010304');">외부감사법인기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010305');">수출입기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010306');">벤처기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010307');">병역특례기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010308');">외국인투자기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010309');">외국법인기업</a></li>
+											</ul></li>
+									</ul>
+									<ul class="site_sub_List">
+										<li><a href="#" onclick="javascript:goTapMove('010310');">전국상공회의소
+												회원기업</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('010311');">서울시
+												상공회 회원기업</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('010312');">코참비즈
+												신규조사기업</a></li>
+									</ul>
+									<ul class="">
+										<li><a href="#" onclick="javascript:goTapMove('010313');">폐업기업</a></li>
+										<li class="bort_no"><a
+											href="http://www.korchambiz.net/COMPI/compi_abroad.jsp">해외관련기업</a>
+											<ul>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010401');">해외진출기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010402');">중국진출기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010403');">제일한인기업</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('010404');">일본기업</a></li>
+											</ul></li>
+										<li><a
+											href="http://www.korchambiz.net/COMPI/compi_analysis.jsp">국내기업분석</a>
+											<ul class="">
+												<li><a href="#"
+													onclick="javascript:goTapMove('010501');">기업현황분석</a></li>
+
+												<li><a href="#"
+													onclick="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">기업별
+														재무분석</a></li>
+												<li><a href="#"
+													onclick="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">업종별
+														재무분석</a></li>
+												<li><a href="#"
+													onclick="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">지역별
+														재무분석</a></li>
+
+											</ul></li>
+									</ul>
+								</div>
+								<div class="site_menu2">
+									<h3>
+										<a href="http://www.korchambiz.net/PRODI/prodi_info.jsp">상품/거래</a>
+									</h3>
+									<ul class="">
+										<li class="bort_no"><a
+											href="http://www.korchambiz.net/PRODI/prodi_info.jsp">상품정보</a>
+											<ul class="">
+												<li><a href="#"
+													onclick="javascript:goTapMove('020101');">신규상품정보</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('020102');">상품카테고리</a></li>
+											</ul></li>
+										<li><a
+											href="http://www.korchambiz.net/PRODI/prodi_totallist.jsp">국내거래</a></li>
+										<li><a
+											href="http://www.korchambiz.net/PRODI/prodi_tradelist.jsp">해외거래</a></li>
+									</ul>
+									<h3>
+										<a href="http://www.korchambiz.net/JOBSI/jobsi_info.jsp">채용/인재</a>
+									</h3>
+									<ul class="">
+										<li><a
+											href="http://www.korchambiz.net/JOBSI/jobsi_info.jsp">채용정보</a></li>
+										<li><a
+											href="http://www.korchambiz.net/JOBSI/jobsi_profilelist.jsp">인재정보</a></li>
+									</ul>
+								</div>
+								<div class="site_menu3">
+									<h3>
+										<a href="http://www.korchambiz.net/NEWSI/newsi_info.jsp">뉴스/입찰</a>
+									</h3>
+									<ul class="">
+										<li><a
+											href="http://www.korchambiz.net/NEWSI/newsi_info.jsp">뉴스정보</a></li>
+										<li><a
+											href="http://www.korchambiz.net/NEWSI/newsi_kotralist.jsp">무역정보
+												및 동향</a></li>
+										<li><a
+											href="http://www.korchambiz.net/NEWSI/newsi_bidlist.jsp">입찰정보</a></li>
+									</ul>
+									<h3>
+										<a href="#">코참비즈안내</a>
+									</h3>
+									<ul class="">
+										<li><a
+											href="http://www.korchambiz.net/KCBIZ/kcbiz_korchambiz.jsp">코참비즈
+												소개</a></li>
+										<li><a
+											href="http://www.korchambiz.net/KCBIZ/kcbiz_noticelist.jsp">공지사항</a></li>
+										<li><a
+											href="http://www.korchambiz.net/KCBIZ/kcbiz_faqlist.jsp">이용안내</a></li>
+										<li><a
+											href="http://www.korchambiz.net/KCBIZ/kcbiz_qna.jsp">문의하기</a></li>
+										<li><a
+											href="http://www.korchambiz.net/ETCPG/etc_privacyinfo.jsp">개인정보취급방침</a></li>
+										<li><a
+											href="http://www.korchambiz.net/ETCPG/etc_mailrejection.jsp">이메일주소무단수집거부</a></li>
+										<li><a
+											href="http://www.korchambiz.net/ETCPG/etc_copypolicy.jsp">저작권보호정책</a></li>
+									</ul>
+								</div>
+								<div class="site_menu4">
+
+									<h3 class="bg_col">
+										<a
+											href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">마이비즈</a>
+									</h3>
+									<ul class="">
+										<li class="bort_no"><a
+											href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">관심정보관리</a>
+											<ul class="">
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">관심기업정보</a></li>
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">관심상품정보</a></li>
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">관심거래정보</a></li>
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">관심뉴스정보</a></li>
+											</ul></li>
+									</ul>
+									<ul class="">
+										<li class="bort_no"><a
+											href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+											onclick="javascript:goTapMove('060201');">등록정보관리</a>
+											<ul class="">
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">상품정보관리</a></li>
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">거래정보관리</a></li>
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">채용정보관리</a></li>
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">인재정보관리</a></li>
+												<li><a
+													href="javascript:goLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');">입사지원관리</a></li>
+											</ul></li>
+									</ul>
+
+								</div>
+								<div class="site_menu5">
+									<h3 class="letter">
+										<a href="http://www.korchambiz.net/BIZCT/bizct_bizcenter.jsp">비즈센터</a>
+									</h3>
+									<ul class="">
+										<li><a href="#"
+											onclick="javascript:goTapMove('070101');">기업용메일</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('070102');">홈페이지제작/웹호스팅</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('070103');">프리미엄서비스안내</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('070104');">전국기업체총람구매안내</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('070105');">서식자료</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('070107');">회원기업
+												홍보 서비스</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('070108');">전자세금계산서
+												서비스</a></li>
+										<li><a href="#" onclick="javascript:goTapMove('070109');">제휴서비스</a></li>
+										<li class="bort_no"><a href="#"
+											onclick="javascript:goTapMove('070110');">광고 및 제휴</a>
+											<ul class="">
+												<li><a href="#"
+													onclick="javascript:goTapMove('070110');">광고안내</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('070111');">제휴안내</a></li>
+												<li><a href="#"
+													onclick="javascript:goTapMove('070112');">제휴업체소개</a></li>
+											</ul></li>
+									</ul>
+								</div>
+							</div>
+							<!-- //사이트맵 내용 -->
+						</div>
+					</div>
+					<!-- //상세팝업 -->
+				</div>
+			</div>
+
+			<script type="text/javascript">
+
+	//상세검색 팝업 input 이미지
+	function clrImg(obj){obj.style.backgroundImage="";obj.onkeydown=obj.onmousedown=null;}
+
+
+//업종선택 팝업 지역검색 팝업과 같은 레이아웃....
+function business_select(){
+	var popUrl = "/POPUP/popup_schindtree.jsp";	//팝업창에 출력될 페이지 URL
+	var popOption = "width=505, height=646, left=0, resizable=no , toolbars = no, top=0, scrollbars=yes, status=no;";	//팝업창 옵션(optoin) 
+	window.open(popUrl,"",popOption);
+}
+
+//지역선택 팝업
+function pop_areaselect(){
+	var popUrl = "/POPUP/popup_schareatree.jsp";	//팝업창에 출력될 페이지 URL
+	var popOption = "width=505, height=646, left=0, resizable=no , toolbars = no, top=0, scrollbars=yes, status=no;";	//팝업창 옵션(optoin) 
+	window.open(popUrl,"",popOption);
+}
+
+//업종,지역 취소 기능
+function removeData(data){
+	if(data == "indcd"){
+		detailSearchForm.t_indcd.value = "";
+
+	}
+	else if(data == "area"){
+		detailSearchForm.t_area.value = "";
+
+	}
+	if(data == "a_indcd"){
+		form3.INDTYPE.value = "업종전체";
+
+	}
+	else if(data == "a_area"){
+		form3.t_area.value = "지역전체";
+
+	}
+}
+</script>
+
+			<form name="menuForm" method="post">
+				<input type="hidden" name="page_cd" id="page_cd" value="" />
+			</form>
+			<!-- //sub 메뉴 -->
+
+			<!-- //여기까지 header_top.html include -->
+			<!-- gnb 서브메뉴 하위 카테고리 메뉴 -->
+
+			<h2 class="blind">서브메뉴 하위 카테고리 메뉴</h2>
+			<div class="gnb">
+				<div class="gnb_area">
+					<div class="gnb_home">
+						<a href="/main.jsp"><img src="/img/sub/sub_gnb_home.png"
+							alt="home" /></a>
+					</div>
+					<div class="gnb_design_area">
+						<!-- menu1set -->
+						<div class="gnb_design">
+							<ul>
+								<li><a href="/COMPI/compi_directory.jsp">기업정보</a></li>
+								<li><a href="/PRODI/prodi_info.jsp">상품/거래</a></li>
+								<li><a href="/JOBSI/jobsi_info.jsp">채용정보</a></li>
+								<li><a href="/NEWSI/newsi_info.jsp">뉴스/입찰</a></li>
+								<li><a href="/KCBIZ/kcbiz_korchambiz.jsp">코참비즈 안내</a></li>
+							</ul>
+						</div>
+						<!-- //menu1set -->
+
+
+
+						<!-- menu1set -->
+						<div class="gnb_design">
+							<ul>
+								<li><a href="/COMPI/compi_part.jsp">분야별</a></li>
+								<li><a href="/COMPI/compi_directory.jsp">업종별</a></li>
+								<li><a href="/COMPI/compi_areamap.jsp">지역별</a></li>
+								<li><a href="/COMPI/compi_abroad.jsp">해외관련기업</a></li>
+								<li><a href="/COMPI/compi_analysis.jsp">국내기업분석</a></li>
+							</ul>
+						</div>
+
+
+
+						<div class="gnb_design">
+							<ul class="gnb_compi">
+								<li><a href="#" onclick="javascript:goTapMove('010303');">상장기업</a></li>
+								<li class="bo_Rno"><a href="#"
+									onclick="javascript:goTapMove('010301');">30대 그룹</a></li>
+								<li><a href="#" onclick="javascript:goTapMove('010302');">1000대
+										기업</a></li>
+								<li class="bo_Rno"><a href="#"
+									onclick="javascript:goTapMove('010304');">외부감사법인</a></li>
+								<li><a href="#" onclick="javascript:goTapMove('010305');">수출입기업</a></li>
+								<li class="bo_Rno"><a href="#"
+									onclick="javascript:goTapMove('010306');">벤처기업</a></li>
+								<li><a href="#" onclick="javascript:goTapMove('010307');">병역특례
+										지정기업</a></li>
+								<li class="bo_Rno"><a href="#"
+									onclick="javascript:goTapMove('010308');">외국인 투자기업</a></li>
+								<li><a href="#" onclick="javascript:goTapMove('010309');">외국법인기업</a></li>
+								<li class="bo_Rno"><a href="#"
+									onclick="javascript:goTapMove('010310');">전국 상공회의소 회원기업</a></li>
+								<li><a href="#" onclick="javascript:goTapMove('010311');">서울
+										상공회 회원기업</a></li>
+								<li class="bo_Rno"><a href="#"
+									onclick="javascript:goTapMove('010312');">코참비즈 신규조사기업</a></li>
+								<li><a href="#" onclick="javascript:goTapMove('010313');">폐업기업</a></li>
+							</ul>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+			<!-- //gnb -->
+		</div>
+		<!-- //상단 영역-->
+		<div id="container">
+			<!-- 컨텐츠 영역 -->
+			<div id="content" class="clearfix">
+				<!-- 컨텐츠 내용 -->
+				<div class="content_wrap">
+					<!-- 서브 공통 타이틀 -->
+					<!--<div class="content_title keyVisual1"> 공통 비주얼 이미지 keyVisual1~9까지 
+					<h2>분야별 분류<p>정확하고 다양한 기업정보를 편리하게 찾을 수 있습니다.</p></h2>
+				</div>-->
+					<!-- //서브 공통 타이틀 -->
+					<!-- 내용 영역 -->
+					<div class="content_area">
+						<form name="form2" method="get" action="/COMPI/compi_part.jsp"
+							onSubmit="go_page();return false;">
+							<input type="hidden" name="page_cd" value="010303" /> <input
+								type="hidden" name="mrd_file" value="">
+								<div id="tabs-1">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									<script type="text/JavaScript">
+function company_go_save(return_page) {
+
+    var f = document.form2;
+	var cklen = f.check.length;
+    var temp = 0 ;
+    var pk_list = "";
+
+    if( cklen > 1 ) {
+        for (i=0; i < cklen; i++) {
+			if (f.check[i].checked == true) {
+				 pk_list +=  f.check[i].value + "/";
+				 temp++;
+			}
+        }
+    } else {
+        if (f.check.checked == true) {
+			pk_list = f.check.value + "/";
+            temp++;
+        }
+    }
+    if(temp == 0) {
+        alert("저장할 항목을 선택하십시요");
+        return;
+    }
+
+
+	checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');
+
+}
+//프리미엄 버튼 로그인 체크
+function checkLogin_premier(){
+  
+		ans = confirm("이 정보는 프리미엄회원과 포인트가 있는 개인회원에게만 제공됩니다. \n 지금 로그인 하시겠습니까?");
+		if (ans == true){
+		location = "/LOGIN/login_01.jsp?link=http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303";
+		}else{
+
+		}
+  
+}
+</script>
+									<div class="contents_tit">
+										<h4 class="bu_tit">상장기업</h4>
+									</div>
+									<!-- 검색창 -->
+									<input type='hidden' name='page' value='1'> <input
+										type='hidden' name='return_url' value=''> <input
+											type='hidden' name='dbtable' value=''> <input
+												type='hidden' name='pk_list' value=''> <input
+													type='hidden' name='table_section' value='t_cd_p01'>
+														<input type='hidden' name='loginid' value=''> <input
+															type='hidden' name='return_page' value=''> <!--공용출력을 위한 공통 input 생성-->
+																<input type="hidden" name="n_comp_hit_count"
+																id="n_comp_hit_count" value="1738" /> <input
+																type="hidden" name="orderKind3" id="orderKind3" value="" />
+																<input type="hidden" name="callFrom" id="callFrom"
+																value="compi_stocklist" /> <input type="hidden"
+																name="grpcd" id="grpcd" value="" /> <!--//공용출력을 위한 공통 input 생성-->
+																<div class="form_box">
+																	<fieldset class="">
+																		<legend>검색창</legend>
+																		<select name="searchName">
+																			<option value="1">기업명</option>
+																			<option value="2">주소</option>
+																			<option value="3">업종</option>
+																			<option value="4">대표자</option>
+																		</select> <input id="keyword" title="내용을 입력하세요"
+																			name="searchText" type="text" class="key_inpt"
+																			value=''
+																			onkeydown="if(event.keyCode==13) document.all.form2.submit();" />
+																		<a href="javascript:go_page('1')"><input
+																			type="image" src="/img/btn/btn_form_sch.gif" alt="검색"
+																			title="검색" /> </a>
+																	</fieldset>
+																</div> <!-- //검색창 --> <!-- 정렬 방식 -->
+																<div class="list_ary_wrap mrt19">
+																	<div class="list_ary_sel mrl10">
+																		<span>정렬방식</span> <select name="orderKind"
+																			onchange="go_page('1')" title="선택해 주세요">
+																			<option value='1' selected>기업명</option>
+																			<option value='2'>주소</option>
+																		</select> <span>구분</span> <select name="orderKind2"
+																			onchange="go_page('1')" title="선택해 주세요">
+																			<option value="ALL">전체</option>
+																			<option value="B01">유가증권</option>
+																			<option value="B02">코스닥</option>
+																		</select>
+																	</div>
+																	<div class="list_ary_btn">
+																		<a href="javascript:allCheck();" class="btn_com_list"><span>전체선택</span></a>
+																		<a href="javascript:allCancel();" class="btn_com_list"><span>선택취소</span></a>
+																		<a
+																			href="javascript:company_go_save('/COMPI/compi_part.jsp');"
+																			class="btn_com_list"><span>선택담기</span></a>
+																	</div>
+																</div> <!-- //정렬 방식 --> <!-- 리스트  -->
+																<div class="board_album_wrap">
+																	<table cellpadding="0" cellspacing="0" class=""
+																		summary="번호 기업명 대표자 주소 업종 홈 선택 리스트 목록 표시">
+																		<caption>기업명 리스트 목록</caption>
+																		<colgroup>
+																			<col width="70" />
+																			<col width="220" />
+																			<col width="100" />
+																			<col width="190" />
+																			<col width="140" />
+																			<col width="50" />
+																			<col width="50" />
+																		</colgroup>
+																		<thead>
+																			<tr>
+																				<th scope="col">번호</th>
+																				<th scope="col">기업명</th>
+																				<th scope="col">대표자</th>
+																				<th scope="col">주소</th>
+																				<th scope="col">업종</th>
+																				<th scope="col">홈</th>
+																				<th scope="col">선택</th>
+																			</tr>
+																		</thead>
+																		<tbody>
+
+
+																			<tr>
+																				<td scope="row">1</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)가비아</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						김홍국</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경기 성남시 분당구 삼평동 670 유스페이스1 B동 401호</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						시스템 소프트웨어 개발 및 공급업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.gabia.com')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="2148639239"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">2</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">가온미디어(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						임화섭</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경기 성남시 분당구 야탑동 513-4 가온미디어빌딩</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						방송장비 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kaonmedia.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1298142066"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">3</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">가온전선(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						구자엽, 김성은</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경기 군포시 금정동 166</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						기타 절연선 및 케이블 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.gaoncable.com')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1238100049"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">4</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)가희</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						경창호</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						충북 충주시 가주동 54-1</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						면 방적업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kahee.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="3038103040"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">5</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)감마누</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						김상기</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경기 화성시 동탄면 금곡리 385</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						기타 무선 통신장비 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.gammanu.com')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1248152292"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">6</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">갑을메탈(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						박한상</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						대구 달성군 논공읍 본리리 103-31</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						동 압연, 압출 및 연신제품 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kabulmetal.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="5148105779"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">7</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)강원랜드</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						최흥집</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						강원 정선군 사북읍 사북리 424</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						기타 갬블링 및 베팅업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kangwonland.com')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="2258110770"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">8</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">갤럭시아커뮤니케이션즈(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						고진</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						서울 강남구 수서동 715 수서오피스빌딩 12층 1501호</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						시스템 소프트웨어 개발 및 공급업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.galaxiacommunications.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1208160844"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">9</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">건설화학공업(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						우기석</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						부산 부산진구 가야2동 197</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						일반용 도료 및 관련제품 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.jebi.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="6058103330"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">10</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)게임빌</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						송병준</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						서울 서초구 서초1동 1426-1 게임빌빌딩</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						온라인·모바일 게임 소프트웨어 개발 및 공급업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.gamevil.com')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1198134778"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">11</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">경남기업(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						장해남</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						충남 아산시 온양1동 242-10</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						아파트 건설업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kne.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1168105522"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">12</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">경남스틸(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						최충경</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경남 창원시 성산구 웅남동 61-46</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						냉간 압연 및 압출 제품 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.ksteel.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="6098111206"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">13</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">경남에너지(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						정연욱, 정세진</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경남 창원시 성산구 웅남동 55-5</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						가스 제조 및 배관공급업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.knenergy.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="6098111676"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">14</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)경남은행</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						손교덕</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경남 창원시 마산회원구 석전2동 246-1</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						국내은행</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.knbank.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="6088604478"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">15</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">경남제약(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						오창환</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경남 의령군 의령읍 동동리 1539-5</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						완제 의약품 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kyungnampharm.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1348142258"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">16</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)경농</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						이병만</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						서울 서초구 서초2동 1363-25 한라비발디스튜디오193</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						농약 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.knco.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="2148108779"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">17</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)경동나비엔</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						손연호, 최재범</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경기 평택시 서탄면 수월암리 169-9</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						가정용 비전기식 조리 및 난방 기구 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kdnavien.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1258101234"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">18</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)경동도시가스</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						손경호, 송재호</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						울산 북구 진장동 939</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						가스 제조 및 배관공급업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kdgas.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="6208100410"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">19</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">경동제약(주)</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						류덕희, 이병석, 류기성, 남기철</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						경기 화성시 양감면 대양리 535-3</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						완제 의약품 제조업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kdpharma.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1248135518"></td>
+
+																			</tr>
+
+
+																			<tr>
+																				<td scope="row">20</td>
+																				<td class="ellipsis bold t_left"><div
+																						class="ellip_tx" style="width: 180px;">
+
+
+																						<a
+																							href="javascript:checkLogin('http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303');"
+																							class="ellip_tx" style="width: 180px;">(주)경방</a>
+
+																					</div></td>
+																				<td><div class="ellip_tx" style="width: 100px;">
+																						이중홍, 김준, 김담</div></td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 180px;">
+																						서울 영등포구 영등포동4가 442 타임스퀘어 2층</div>
+																				</td>
+																				<td>
+																					<div class="ellip_tx t_left" style="width: 130px;">
+																						면 방적업</div>
+																				</td>
+																				<td><a
+																					href="javascript:goHome( 'www.kyungbang.co.kr')"
+																					class="gohome"><img
+																						src="/img/ico/ico_gohome.png" alt="홈페이지 바로가기"
+																						style="display: inline; text-align: center;"></a>
+
+																				</td>
+																				<td><input type="checkbox" name="check"
+																					value="1078105232"></td>
+
+																			</tr>
+
+
+																		</tbody>
+																	</table>
+																</div> <!-- //리스트 --> <!-- 페이지 네비게이션 -->
+																<div class="paginate_box">
+																	<span class="icont">총 1,738건</span>
+																	<div class="paginate_complex">
+
+																		<strong>1</strong> <a
+																			href='compi_part.jsp?page=2&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>2</a> <a
+																			href='compi_part.jsp?page=3&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>3</a> <a
+																			href='compi_part.jsp?page=4&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>4</a> <a
+																			href='compi_part.jsp?page=5&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>5</a> <a
+																			href='compi_part.jsp?page=6&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>6</a> <a
+																			href='compi_part.jsp?page=7&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>7</a> <a
+																			href='compi_part.jsp?page=8&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>8</a> <a
+																			href='compi_part.jsp?page=9&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>9</a> <a
+																			href='compi_part.jsp?page=10&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion prev'>10</a> <A
+																			HREF='compi_part.jsp?page=11&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion next'><img
+																			src="/img/btn/btn_pagenavi_next.gif" border=0
+																			alt='다음 10page'></A> <A
+																			HREF='compi_part.jsp?page=87&searchName=&searchText=&orderKind=1&orderKind2=&country_code=&page_cd=010303'
+																			class='dipolyion next'><img
+																			src="/img/btn/btn_pagenavi_nextt.gif" border=0
+																			alt='마지막'></A>
+
+																	</div>
+																</div> <!-- //페이지 네비게이션 --> <!-- 버튼 -->
+																<div class="list_ary_wrap mar_20">
+																	<div class="list_ary_sel">
+
+																		<a href="javascript:checkLogin_premier();"
+																			class="btn_label"><span>리스트출력 </span></a> <a
+																			href="javascript:checkLogin_premier();"
+																			class="btn_label"><span>라벨출력 </span></a> <a
+																			href="javascript:checkLogin_premier();"
+																			class="btn_label"><span>엑셀다운로드 </span></a>
+
+																	</div>
+																	<div class="list_ary_btn">
+																		<a href="javascript:allCheck();" class="btn_com_list"><span>전체선택</span></a>
+																		<a href="javascript:allCancel();" class="btn_com_list"><span>선택취소</span></a>
+																		<a
+																			href="javascript:company_go_save('/COMPI/compi_part.jsp');"
+																			class="btn_com_list"><span>선택담기</span></a>
+																	</div>
+																</div> <!-- //버튼 -->
+								</div>
+						</form>
+					</div>
+					<!-- //내용 영역 -->
+				</div>
+				<!-- //컨텐츠 내용 -->
+				<!-- 여기부터 quick_menu.html include -->
+				<!-- 퀵메뉴 -->
+
+				<div class="quick_menu">
+					<h2>QUICK MENU</h2>
+					<ul class="quick_list">
+						<li class="quick_num1"><a
+							href="javascript:goTapMove('010101');">기업정보</a></li>
+						<li class="quick_num2"><a
+							href="javascript:goTapMove('020101');">상품정보</a></li>
+						<li class="quick_num3"><a href="http://pl.korcham.net"
+							target="_blank">PL공제</a></li>
+						<li class="quick_num4">
+							<!--<a href="#" onclick="javascript:window.open('http://sign.korcham.net','signINFO','width=768,height=700,menubar=no,toolbar=no,location=no,resizable=no,status=no,scrollbars=yes,top=0,left=0');">공인인증서</a>-->
+							<a href="#"
+							onclick="javascript:window.open('/POPUP/popup_certificate.jsp','signINFO','width=830, height=800, left=0, resizable=no , toolbars = no, top=0, scrollbars=yes, status=no');">공인인증서</a>
+						</li>
+						<li class="quick_num5"><a
+							href="javascript:goTapMove('070109');">제휴서비스</a></li>
+					</ul>
+					<div class="quick_banner">
+						<!-- 베너 이미지 사이즈 가로140 세로 380 -->
+						<script language="javascript"
+							src="http://ad.korchambiz.net:8080/js.kti/korchambiz/sub_new2@right"></script>
+						<!--a href="/join/join_membermain.jsp"><img src="/img/sub/quick_banner.jpg" style="width:140px; height:380px;" alt="놀라운 서비스! 상공회의소 회원으로 가입하세요~"/></a-->
+					</div>
+				</div>
+				<!-- 퀵메뉴 -->
+				<!-- //여기까지 quick_menu.html include -->
+			</div>
+			<!-- //컨텐츠 영역 -->
+		</div>
+		<!-- 하단 영역-->
+		<div id="footer">
+			<!-- 등록기업현황 -->
+
+
+
+
+
+
+
+
+
+			<h2 class="blind">등록기업현황정보</h2>
+			<!-- <div class="status_wrap">
+			<span class="status_open"><button type="button">등록기업현황 보기</button></span>
+		</div> -->
+			<div class="company_status" id="status">
+				<div class="clearfix">
+					<dl class="clearfix">
+						<dt>등록기업현황</dt>
+						<dd class="bg_arrow">
+							(2015.01.04. 22:25 현재)&nbsp;기업정보 : <em class="icont">572,200</em>건,
+						</dd>
+						<dd>
+							[영업 : <em>291,083</em>, 폐업 : <em>199,144</em>, 기타 : <em>81,973</em>]
+						</dd>
+					</dl>
+					<span class="status_close"><a href="javascript:cklogin();"
+						class="btn_compi"><span>기업정보등록</span></a></span>
+				</div>
+			</div>
+
+
+			<script>
+function cklogin() {
+
+	ans = confirm("이 정보는 회사정보를 입력한 회원에게 제공됩니다. \n 지금 로그인 하시겠습니까?");
+	if (ans == true) {
+		location = "/LOGIN/login_01.jsp?link=http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303";
+	} else {
+		return;
+	}
+
+}
+</script>
+
+			<!-- //등록기업현황 -->
+			<!-- 여기부터 footer.html include -->
+
+			<h2 class="blind">비즈소개 및 정보취급 방침</h2>
+			<div class="footer_area">
+				<div class="footer_wrap">
+					<p class="footer_logo">
+						<a href="/main.jsp"><img src="/img/main/f_logo.gif"
+							alt="코참비즈 로고" /></a>
+					</p>
+					<div class="footer_etc">
+						<!-- <ul class="">
+						<li><a href="/KCBIZ/kcbiz_korchambiz.jsp">코참비즈소개</a></li>
+						<li><a href="/BIZCT/bizct_bizcenter.jsp">비즈센터</a></li>
+						<li><a href="/ETC/etc_affiliates.jsp">제휴안내</a></li>
+						<li><a href="/ETC/etc_advertising.jsp">광고안내</a></li> 
+						<li class="privacy"><a href="/ETC/etc_privacyinfo.jsp">개인정보취급방침</a></li>
+						<li><a href="/ETC/etc_mailrejection.jsp">이메일무단수집거부</a></li>
+						<li><a href="/ETC/etc_copypolicy.jsp">저작권보호정책</a></li>
+					</ul>-->
+						<address>
+							<em>(100-743) 서울특별시 중구 세종대로 39 상공회의소 회관 / <span>TEL :</span>
+								02-6050-3680 / <span>FAX :</span> 02-6050-3693
+							</em>
+						</address>
+						<div class="">
+							<ul class="">
+								<li>(C) Copyright &copy; <em>KCCI</em> All Rights Reserved.
+								</li>
+								<li class="privacy"><a
+									href="http://www.korchambiz.net/ETCPG/etc_privacyinfo.jsp">개인정보취급방침</a></li>
+								<li><a
+									href="http://www.korchambiz.net/ETCPG/etc_mailrejection.jsp">이메일무단수집거부</a></li>
+								<li><a
+									href="http://www.korchambiz.net/ETCPG/etc_copypolicy.jsp">저작권보호정책</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- 패밀리 사이트 -->
+					<h2 class="blind">패밀리 사이트 메뉴</h2>
+					<div class="family_site">
+						<div class="familysite-inner">
+							<ul id="sampleSc" class="familysite-list">
+								<li><a href="http://web.korchambiz.net/" id="sc-link"
+									target="_blank" title="새창열림">홈페이지제작/웹호스팅 서비스</a></li>
+								<!--li><a href="/BIZCT/bizct_bizcenter.jsp" target="_blank" title="새창열림">기업용메일</a></li-->
+								<li><a href="http://www.korcham.net" target="_blank"
+									title="새창열림">대한상공회의소</a></li>
+								<li><a href="http://sppm.korcham.net" target="_blank"
+									title="새창열림">Single PPM 품질혁신추진본부</a></li>
+								<li><a href="http://cert.korcham.net" target="_blank"
+									title="새창열림">무역증명발급</a></li>
+								<li><a href="http://www.gs1kr.org" target="_blank"
+									title="새창열림">한국유통물류진흥원</a></li>
+								<li><a
+									href="http://www.korcham.net/nCham/Service/Network/appl/guccilist.asp"
+									target="_blank" title="새창열림">서울 상공회</a></li>
+							</ul>
+							<p class="familysite-defult">
+								<a href="#sc-link">Family Site</a>
+							</p>
+							<!-- <p class="kcci_link"><a href="http://www.korcham.net/" target="_blank"><img src="/img/ico/f_link_ico.gif" alt="대한상공회의소 링크바로가기"/></a></p> -->
+						</div>
+					</div>
+					<!-- //패밀리 사이트 -->
+				</div>
+			</div>
+			<!-- //여기까지 footer.html include -->
+		</div>
+		<!-- //하단 영역-->
+	</div>
+	<script src="/js/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="/js/jquery.jBreadCrumb.1.1.js" type="text/javascript"></script>
+	<script type="text/javascript">
+function checkLogin(){//파라메터로인해 내부 로그인 스크립트 사용
+	ans = confirm("이 정보는 회원에게만 제공됩니다. \n 지금 로그인 하시겠습니까?");
+	if (ans == true){
+		location = "/LOGIN/login_01.jsp?link=http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303";
+	}else{
+	}
+}
+/*각 서브페이지에 별도 선언처리완료
+//프리미엄 버튼 로그인 체크
+function checkLogin_premier(){
+  
+		ans = confirm("이 정보는 프리미엄회원과 포인트가 있는 개인회원에게만 제공됩니다. \n 지금 로그인 하시겠습니까?");
+		if (ans == true){
+				 location = "/LOGIN/login.jsp?link=http%3A%2F%2Fwww.korchambiz.net%3A80%2FCOMPI%2Fcompi_part.jsp%3Fpage%3D1%26searchName%3D%26searchText%3D%26orderKind%3D1%26orderKind2%3D%26country_code%3D%26page_cd%3D010303%26page_cd%3D010303";
+		}else{
+
+		}
+  
+}
+*/
+//국가코드 팝업
+function popupOpen4(){
+	var popUrl = "/POPUP/popup_nationcode.jsp";	//팝업창에 출력될 페이지 URL
+	var popOption = "width=505, height=603, left=0, resizable=no , toolbars = no, top=0, scrollbars=yes, status=no;";	//팝업창 옵션(optoin) 
+	window.open(popUrl,"",popOption);
+}
+
+    function go_page(cur_page){
+		  document.form2.page.value = cur_page;
+          document.form2.action = "compi_part.jsp";
+          document.form2.submit();
+     }
+
+//<![CDATA[
+(function ($) {
+	$(document).ready(function() {
+		//mouseovermainmenu.init("tabs_container_id", "submenu_container_id", "bool_hidecontentsmouseout")
+		//navigation.init("mymainmenu", "mysubmenuarea", true)
+		//gnb 메뉴
+		//탭메뉴 유형2
+		$(".tabBox").tablist();
+		//패밀리 사이트
+		$('.family_site').familySite();
+		//푸터 고정
+		$('#footer').stickyfooter();
+		//탭 다시
+		$( "#accordion" ).accordion({
+			collapsible: true,
+			active:false,
+			heightStyle: "content"
+		});
+		//more 탭
+		//퀵메뉴
+		$(".quick_menu").autofix_anything();
+		//셀렉트박스
+		$(".select-design").selectDesign({listWidth:150});
+		//레이어팝업
+		$(".layer1").layer_pop();
+		$(".layer2").layer_pop();
+		//gnb 셀렉트 박스 디자인
+		$(".gnb_design").selectDesign();
+	});
+}(jQuery));
+//]]>
+</script>
+
+</body>
+</html>
+
